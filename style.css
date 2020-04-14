@@ -6,6 +6,21 @@ body {
   color: #505962;
 }
 
+:root{
+  /* --primary-color: #4458dc;
+  --primary-color2: #854fee;
+  --title-color: #141313;
+  --text-color: #777777;  
+  --border-color: #201f1f17;  
+  --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3); */
+  --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+ 
+
+  /* font family variables. 
+  --roboto: 'Roboto', cursive; */
+} 
+
 .offset:before {
   display: block;
   content: "";
@@ -95,12 +110,90 @@ body {
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  /* border-color: #189582;
-  background-color: #189582; */
   border-color: rgba(207, 83, 0, 0.76);
   background-color: rgba(207, 83, 0, 0.76);
   color: white;
 }
+
+/* Games Section */ 
+#games a {
+  color: #505962;
+}
+#games a:hover,
+#games a:focus {
+  text-decoration: none;
+}
+.game-card {
+  border: lightgray solid .1px;
+  background: rgba(248, 252, 253, 0.973);
+  width: auto;
+  transition: box-shadow .7s ease;
+}
+.game-card:hover{
+  box-shadow: var(--box-shadow);
+}
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+.align-center {
+	text-align: center;
+}
+.game-card-header {
+  margin: auto;
+  padding: 10px;
+}
+.game-card-header .sched {
+  font-size: .8rem;
+  font-weight: 600;
+  color: black;
+}
+.game-card-header .provider {
+  font-size: .7rem;
+  font-weight: 550;
+}
+.game-card-item {
+  padding: 0px 12px 3px;
+}
+.game-card-item img{
+  width: 2.2rem;
+}
+.game-card .winner {
+  color: black;
+}
+.game-card .score {
+  font-size: 1.2rem;
+}
+.game-card-featured {
+  border: lightgray solid .1px;
+  font-size: .8rem;
+  background-color: #ebebeb;
+  padding: 5px;
+  color: black;
+}
+.game-card-body {
+  padding: 10px;
+  font-size: .7rem;
+  font-weight: 600;
+  height: 2.2rem;
+  /* TODO:  */
+}
+.game-card-body a:hover,
+.game-card-body a:focus {
+  color: #CF5300!important;
+}
+.border-right {
+  border-right: lightgray 1px solid;
+}
+.game-card-btn {
+  /* border: lightgray dashed .1px; */
+  /* text-align: center; */
+  float: left;
+  width: 33%;
+}
+/* End Games Section */ 
 
 /* Feature Section */
 .jumbotron {
@@ -135,7 +228,7 @@ h3.heading {
 
 /* Resources Section */
 .fixed {
-  background-image: url(img/apple.png);
+  background-image: url(img/statistician.jpg);
   z-index: -1;
 }
 .dark {
@@ -215,6 +308,9 @@ hr.socket {
     max-width: 50%;
     display: block;
     margin: 0 auto;
+  }
+  .copyright {
+    font-size: .8rem;
   }  
 }
 /* Media Queries */
