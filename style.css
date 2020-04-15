@@ -123,23 +123,65 @@ body {
 #games a:focus {
   text-decoration: none;
 }
+.game-card-container {
+  /* border: black dashed .1px; */
+  background-color: #e9ecef;
+  max-width: 1380px;
+  margin: auto;
+  padding: 0px 90px 90px 90px;
+}
+.game-header-sub-1 {
+  background-color: rgb(221, 92, 6);
+  /* border: black dashed .1px; */
+  height: 2px;
+  margin: auto;
+}
+.game-header-sub-2 {
+  background-color: rgb(233, 98, 7);
+  /* border: black dashed .1px; */
+  height: 2px;
+  margin: auto;
+}
+.game-header {
+  background-image: url("img/bg-game-header.png");
+  background-size:100% 100%;
+  background-color: #CF5300;
+  /* border: black dashed .1px; */
+  height: 60px;
+  margin: auto;
+}
+.game-header span {
+  line-height: 50px;
+  font-size: 13px;
+  color: white;
+}
+.game-header .fa-calendar {
+  color: white;
+  margin-right: 5px;
+}
+.game-header .fa-angle-left {
+  color: white;
+  margin-right: 2rem;
+}
+.game-header .fa-angle-right {
+  color: white;
+  margin-left: 2rem;
+}
+.game-footer {
+  /* border: black dashed .1px; */
+  height: 20px;
+  margin: auto;
+  max-width: 1380px;
+}
 .game-card {
   border: lightgray solid .1px;
   background: rgba(248, 252, 253, 0.973);
   width: auto;
+  max-width: 360px;
   transition: box-shadow .7s ease;
 }
 .game-card:hover{
   box-shadow: var(--box-shadow);
-}
-.align-left {
-	float: left;
-}
-.align-right {
-	float: right;
-}
-.align-center {
-	text-align: center;
 }
 .game-card-header {
   margin: auto;
@@ -161,7 +203,7 @@ body {
   width: 2.2rem;
 }
 .game-card .winner {
-  color: black;
+  color: #CF5300;
 }
 .game-card .score {
   font-size: 1.2rem;
@@ -177,8 +219,6 @@ body {
   padding: 10px;
   font-size: .7rem;
   font-weight: 600;
-  height: 2.2rem;
-  /* TODO:  */
 }
 .game-card-body a:hover,
 .game-card-body a:focus {
@@ -188,10 +228,17 @@ body {
   border-right: lightgray 1px solid;
 }
 .game-card-btn {
-  /* border: lightgray dashed .1px; */
-  /* text-align: center; */
   float: left;
   width: 33%;
+}
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+.align-center {
+	text-align: center;
 }
 /* End Games Section */ 
 
@@ -311,6 +358,12 @@ hr.socket {
   }
   .copyright {
     font-size: .8rem;
+  }
+  .game-card {
+    min-width: 441px;
+  }
+  .game-card-container {
+    padding: 0px 0px 90px 0px;
   }  
 }
 /* Media Queries */

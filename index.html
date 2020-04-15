@@ -13,7 +13,7 @@
     <section id="home">
         <!-- Start of Navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#"><img src="img/logo-hs-black-160x40.png"></a>
+            <a class="navbar-brand" href="#"><img src="img/hs-favicon-white-48px.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -56,7 +56,7 @@
 
         <div class="caption text-center">
             <h1>Welcome to HoopsScores</h1>
-            <h3>See Your Gate Stats Online</h3>
+            <h3>See Your Game Stats Online</h3>
             <a class="btn btn-outline-light btn-lg" href="#">Get Started</a>
         </div>
         <!-- End Landing Page -->
@@ -71,12 +71,20 @@
         </div>
     </section>
 
-    <section id="games" class="offset">
-        <div class="jumbotron">
-            <div class="col-12 text-center">
-                <h3 class="heading">Games</h3>
-                <div class="heading-underline"></div>
-            </div>
+    <section id="games" class="offset">       
+        <div class="col-12 text-center">
+            <h3 class="heading">Games</h3>
+            <div class="heading-underline"></div>
+        </div>
+        <div class="game-header-sub-1 text-center"></div>
+        <div class="game-header text-center">
+            <a type="button" href="#games"><i class="fas fa-angle-left fa-1x"></i></a>
+            <i class="fa fa-calendar fa-1x" aria-hidden="true"></i>
+            <span>WEDNESDAY, MAR 11 - 6 GAMES</span>
+            <a type="button" href="#games"><i class="fas fa-angle-right fa-1x"></i></a>
+        </div>
+        <div class="game-header-sub-2 text-center"></div>
+        <div class="game-card-container">            
             <div class="row text-center">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <a href="#">
@@ -93,7 +101,7 @@
                                 <span class="score align-right"></span>
                                 <div style="clear: both;"></div>
                             </div>
-                            <div class="game-card-item winner">                                
+                            <div class="game-card-item">                                
                                 <span class="align-left">
                                     <img src="/img/team-logo/OKC.svg">Oklahoma City Thunder
                                 </span>
@@ -118,7 +126,7 @@
                                 <span class="score align-right"></span>
                                 <div style="clear: both;"></div>
                             </div>
-                            <div class="game-card-item winner">                                
+                            <div class="game-card-item">                                
                                 <span class="align-left">
                                     <img src="/img/team-logo/SAC.svg">Sacramento Kings
                                 </span>
@@ -163,6 +171,7 @@
                                 <div class="game-card-btn">
                                     <a type="button" href="#">GAME DETAIL</a>
                                 </div>
+                                <div style="clear: both;"></div>
                             </div>
                         </div>
                     </a>    
@@ -202,6 +211,7 @@
                                 <div class="game-card-btn">
                                     <a type="button" href="#">GAME DETAIL</a>
                                 </div>
+                                <div style="clear: both;"></div>
                             </div>
                         </div>
                     </a>    
@@ -241,6 +251,7 @@
                                 <div class="game-card-btn">
                                     <a type="button" href="#">GAME DETAIL</a>
                                 </div>
+                                <div style="clear: both;"></div>
                             </div>
                         </div>
                     </a>    
@@ -280,12 +291,14 @@
                                 <div class="game-card-btn">
                                     <a type="button" href="#">GAME DETAIL</a>
                                 </div>
+                                <div style="clear: both;"></div>
                             </div>
                         </div>
                     </a>    
                 </div>
             </div>
-        </div>
+        </div><!-- game-card-container -->
+        <div class="game-footer"></div>
     </section>
 
     <section id="schedules" class="offset">
