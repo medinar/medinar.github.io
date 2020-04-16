@@ -115,132 +115,90 @@ body {
   color: white;
 }
 
-/* Games Section */ 
+/* Game Section starts here */
 #games a {
   color: #505962;
 }
 #games a:hover,
 #games a:focus {
-  text-decoration: none;
+text-decoration: none;
 }
-.game-card-container {
-  /* border: black dashed .1px; */
-  background-color: #e9ecef;
-  max-width: 1380px;
-  margin: auto;
-  padding: 0px 90px 90px 90px;
+.game-cards {
+  border: lightgray solid 1pt;
+  /* width: 95%; */
+  margin: 0px!important;
 }
-.game-header-sub-1 {
-  background-color: rgb(221, 92, 6);
-  /* border: black dashed .1px; */
-  height: 2px;
-  margin: auto;
-}
-.game-header-sub-2 {
-  background-color: rgb(233, 98, 7);
-  /* border: black dashed .1px; */
-  height: 2px;
-  margin: auto;
-}
-.game-header {
-  background-image: url("img/bg-game-header.png");
+.game-cards-header {
+  background-image: url("img/bg-banner-black.png");
   background-size:100% 100%;
+  text-transform: uppercase;
   background-color: #CF5300;
-  /* border: black dashed .1px; */
+  color:white;
   height: 60px;
-  margin: auto;
+  line-height: 60px;
 }
-.game-header span {
-  line-height: 50px;
-  font-size: 13px;
-  color: white;
-}
-.game-header .fa-calendar {
+.game-cards-header .fa-calendar {
   color: white;
   margin-right: 5px;
 }
-.game-header .fa-angle-left {
+.game-cards-header .fa-angle-left {
   color: white;
   margin-right: 2rem;
 }
-.game-header .fa-angle-right {
+.game-cards-header .fa-angle-right {
   color: white;
   margin-left: 2rem;
 }
-.game-footer {
-  /* border: black dashed .1px; */
-  height: 20px;
-  margin: auto;
-  max-width: 1380px;
+.game-cards-footer {
+  /* border: lightgray dashed 1pt; */
 }
-.game-card {
-  border: lightgray solid .1px;
-  background: rgba(248, 252, 253, 0.973);
-  width: auto;
-  max-width: 360px;
-  transition: box-shadow .7s ease;
+.game {
+  margin: 10px;
+  min-width: 315px;
 }
-.game-card:hover{
-  box-shadow: var(--box-shadow);
+.game img {
+  width: 40px;
 }
-.game-card-header {
-  margin: auto;
-  padding: 10px;
-}
-.game-card-header .sched {
-  font-size: .8rem;
-  font-weight: 600;
+.game .card-header {
+  padding: 10px!important;
   color: black;
 }
-.game-card-header .provider {
-  font-size: .7rem;
-  font-weight: 550;
+.game .card-body {
+  padding: 10px!important;
 }
-.game-card-item {
-  padding: 0px 12px 3px;
+.game .featured {
+  border-top: lightgray solid 1pt;
+  border-bottom: lightgray solid 1pt;
+  font-size: 16px;
+  line-height: 30px;
 }
-.game-card-item img{
-  width: 2.2rem;
+.game .card-footer a {
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.game-card .winner {
-  color: #CF5300;
+.game .card-footer a {
+  font-size: small;
+  color: #505962;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.game-card .score {
-  font-size: 1.2rem;
+.game .card-footer a:hover,
+.game .card-footer a:focus {
+  color: #d5d5d5;
+  text-decoration: none;
 }
-.game-card-featured {
-  border: lightgray solid .1px;
-  font-size: .8rem;
-  background-color: #ebebeb;
-  padding: 5px;
+.game .card-footer .boxscore {
+  border-right: lightgray solid 1pt;
+}
+.winner {
+  background-color: rgb(241, 241, 241);
   color: black;
 }
-.game-card-body {
-  padding: 10px;
-  font-size: .7rem;
-  font-weight: 600;
+.winner .score {
+  font-size: 20px;
 }
-.game-card-body a:hover,
-.game-card-body a:focus {
-  color: #CF5300!important;
-}
-.border-right {
-  border-right: lightgray 1px solid;
-}
-.game-card-btn {
-  float: left;
-  width: 33%;
-}
-.align-left {
-	float: left;
-}
-.align-right {
-	float: right;
-}
-.align-center {
-	text-align: center;
-}
-/* End Games Section */ 
+/* Game Section ends */
 
 /* Feature Section */
 .jumbotron {
