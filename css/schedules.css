@@ -1,0 +1,79 @@
+.filters {
+    margin-top: 5rem;
+}
+.filters .col {
+    border: lightgray solid .5pt;
+
+}
+.week-header {
+    height: 3rem;
+    line-height: 3rem;
+    background-color: lightgray;
+}
+.sched-details {
+    font-weight: 600;
+}
+.sched-details .date {
+    font-size: 1rem;
+    color: royalblue;
+}
+.sched-details .week-no {
+    font-size: .7rem;
+    color: darkgray;
+}
+.sched-details .games-no {
+    font-size: .7rem;
+    color: darkgray;
+}
+
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .sched-table-header {
+        display: none;
+    }
+    .venue {
+        display: none;
+    }
+    .btn-grp a {
+        font-size: .7rem;
+    }
+}
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .sched-table-header {
+        display: none;
+    }    
+    .venue {
+        display: none;
+    }
+    .btn-grp btn-primary {
+        font-size: .7rem;
+    }
+}
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .sched-table-header {
+        display: none;
+    }     
+    .venue {
+        display: none;
+    }
+}
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+    .sched-table-header {
+        display: inline;
+    }     
+    .venue {
+        display: inline;
+    }    
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .sched-table-header {
+        display: inline;
+    }     
+    .venue {
+        display: inline;
+    }
+}

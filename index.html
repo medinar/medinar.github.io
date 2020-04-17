@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="css/fixed.css">
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
-    <section id="home">
+    <section id="main-menu">
         <!-- Start of Navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#"><img src="img/hs-favicon-white-48px.png"></a>
+            <a class="navbar-brand" href="#">HooopsScores</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,25 +21,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#main-menu">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#scores">Scores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#games">Games</a>
+                        <a class="nav-link" href="includes/games.html">Games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#schedules">Schedules</a>
+                        <a class="nav-link" href="includes/schedules.html">Schedules</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#stats">Stats</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#standings">Standings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactus">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -69,344 +66,6 @@
             <p>Learn Bootstrap by creating an advanced Bootstrap 4 Responsive Website Template from scratch, with no steps skipped!</p>
             <a class="btn btn-secondary btn-md" href="http://bit.ly/advanced-bootstrap-course" target="_blank">Bootstrap Course</a>
         </div>
-    </section>
-
-    <section id="games" class="offset">       
-        <div class="col-12 text-center">
-            <h3 class="heading">Games</h3>
-            <div class="heading-underline"></div>
-        </div>
-        <div class="game-cards-header mb-3 container-fluid text-center">
-            <a type="button" href="#games"><i class="fas fa-angle-left fa-1x"></i></a>
-            <i class="fa fa-calendar fa-1x" aria-hidden="true"></i>
-            <span>WEDNESDAY, MAR 11 - 6 GAMES</span>
-            <a type="button" href="#games"><i class="fas fa-angle-right fa-1x"></i></a>
-        </div>
-        <div class="game-cards mt-3 mb-3 container-fluid">
-            <div class="row no-gutters justify-content-center">
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">001</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/DEN.svg">
-                            </div>
-                            <div class="col-8">Denver Nuggets</div>
-                            <div class="col-2 score pr-2 text-right">97</div>
-                        </div>
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/DAL.svg">
-                            </div>
-                            <div class="col-8">Dallas Mavericks</div>
-                            <div class="col-2 score pr-2 text-right">113</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Murray: 25pts | Marjanovich: 31pts, 17reb</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">002</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/CHA.svg">
-                            </div>
-                            <div class="col-8">Charlotte Hornets</div>
-                            <div class="col-2 score pr-2 text-right">109</div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/MIA.svg">
-                            </div>
-                            <div class="col-8">Miami Heat</div>
-                            <div class="col-2 score pr-2 text-right">98</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Graham: 30pts | Nunn: 24pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">003</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/NYK.svg">
-                            </div>
-                            <div class="col-8">New York Knicks</div>
-                            <div class="col-2 score pr-2 text-right">136</div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/ATL.svg">
-                            </div>
-                            <div class="col-8">Atlanta Hawks</div>
-                            <div class="col-2 score pr-2 text-right">131</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Embiid 30pts, 14reb | Wood: Career-high 32pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">004</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/DET.svg">
-                            </div>
-                            <div class="col-8">Detroit Pistons</div>
-                            <div class="col-2 score pr-2 text-right">106</div>
-                        </div>
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/PHI.svg">
-                            </div>
-                            <div class="col-8">Philadelphia 76ers</div>
-                            <div class="col-2 score pr-2 text-right">124</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Embiid: 30pts, 14reb | Wood: Career-high 32pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">005</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/NOP.svg">
-                            </div>
-                            <div class="col-8">New Orleans Pelicans</div>
-                            <div class="col-2 score pr-2 text-right">109</div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/SAC.svg">
-                            </div>
-                            <div class="col-8">Sacramento Kings</div>
-                            <div class="col-2 score pr-2 text-right">98</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Willamson: 30pts | Bogdanovic: 24pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">006</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/UTA.svg">
-                            </div>
-                            <div class="col-8">Utah Jazz</div>
-                            <div class="col-2 score pr-2 text-right">136</div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/OKC.svg">
-                            </div>
-                            <div class="col-8">Oklahoma City Thunder</div>
-                            <div class="col-2 score pr-2 text-right">131</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Clarkson 30pts, 14reb | Adams: Career-high 32pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">007</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/MIL.svg">
-                            </div>
-                            <div class="col-8">Milwaukee Bucks</div>
-                            <div class="col-2 score pr-2 text-right">103</div>
-                        </div>
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/LAL.svg">
-                            </div>
-                            <div class="col-8">Los Angeles Lakers</div>
-                            <div class="col-2 score pr-2 text-right">113</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">James: 37pts | Davis: 30pts | Giannis: 32pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">008</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/SAS.svg">
-                            </div>
-                            <div class="col-8">San Antonio Spurs</div>
-                            <div class="col-2 score pr-2 text-right">120</div>
-                        </div>
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/BKN.svg">
-                            </div>
-                            <div class="col-8">Brooklyn Nets</div>
-                            <div class="col-2 score pr-2 text-right">139</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">LeVert: 27pts, 11reb, 10ast | Harris: 20pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-                <div class="game card col-lg-3 col-md-4 col-sm-12">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-9">GAME</div>
-                            <div class="col-3 text-right">009</div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row no-gutters winner">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/IND.svg">
-                            </div>
-                            <div class="col-8">Indiana Pacers</div>
-                            <div class="col-2 score pr-2 text-right">108</div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-2">
-                                <img src="/img/nba_logo/CHI.svg">
-                            </div>
-                            <div class="col-8">Chicago Bulls</div>
-                            <div class="col-2 score pr-2 text-right">102</div>
-                        </div>
-                    </div>
-                    <div class="card-block">
-                        <div class="row mb-2 no-gutters text-center">
-                            <div class="col-12 featured">Sabonis 24pts, 12reb | White: 26pts</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row justify-content-center">
-                            <div class="col boxscore text-center"><a href="#" class="button">Boxscore</a></div>
-                            <div class="col text-center"><a href="#" class="button">Game Details</a></div>                                                
-                        </div>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="game-cards-footer container-fluid">
-            <div class="row">
-                <div class="col-12 text-center"></div>
-            </div>        
-        </div>        
-        <div class="game-footer"></div>
     </section>
 
     <section id="schedules" class="offset">
@@ -531,8 +190,7 @@
     </section>
 
     <!-- Start Contact Setion -->
-    <section id="contactus" class="offset">
-
+    <section class="offset">
         <footer>
             <div class="row justify-content-center">
                 <div class="col-md-5 text-center">
