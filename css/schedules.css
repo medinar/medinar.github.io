@@ -1,14 +1,27 @@
-.filters {
-    margin-top: 5rem;
+.sched-navbar {
+    font-size: 1rem;
+    max-width: 1440px;
 }
-.filters .col {
-    border: lightgray solid .5pt;
-
+.filters {
+    max-width: 1400px;
+}
+.filters .spacer {
+    display: inline;
+}
+.filter-item {
+    border: lightgray solid 1pt;
+}
+.filter-item .label {
+    font-size: .6rem;
 }
 .week-header {
     height: 3rem;
     line-height: 3rem;
     background-color: lightgray;
+    max-width: 1440px;
+}
+.sched-table-header {
+    max-width: 1400px;
 }
 .sched-details {
     font-weight: 600;
@@ -25,54 +38,46 @@
     font-size: .7rem;
     color: darkgray;
 }
-
+.sched-item {
+    max-width: 1400px;
+}
+.btn-border {
+    border: lightgray solid 1pt;
+    padding: 10px 16px;
+    font-size: 1rem;
+}
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-    .sched-table-header {
-        display: none;
-    }
     .venue {
         display: none;
     }
-    .btn-grp a {
+    .btn-border {
         font-size: .7rem;
     }
 }
 /* Small (sm) devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .sched-table-header {
-        display: none;
-    }    
+@media (min-width: 576px) {
     .venue {
         display: none;
     }
-    .btn-grp btn-primary {
+    .btn-border {
         font-size: .7rem;
     }
 }
 /* Medium (md) devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .sched-table-header {
-        display: none;
-    }     
     .venue {
         display: none;
     }
 }
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 1024px) {
-    .sched-table-header {
-        display: inline;
-    }     
     .venue {
         display: inline;
     }    
 }
 /* Extra (xl) large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .sched-table-header {
-        display: inline;
-    }     
     .venue {
         display: inline;
     }

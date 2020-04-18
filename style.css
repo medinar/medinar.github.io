@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
@@ -28,7 +28,7 @@ body {
   margin-top: -4rem;
 }
 /* Navigation */
-.navbar {
+.home-navbar {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
