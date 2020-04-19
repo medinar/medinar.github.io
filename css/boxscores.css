@@ -1,0 +1,85 @@
+.game-header div {
+    /* border: lightgray dashed 1pt; */
+}
+.team {
+    font-weight: 700;
+}
+.quarter {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.score {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .team {
+        font-size: .8rem;
+    }
+    .quarter {
+        font-size: .8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .score {
+        font-size: 1.6rem;
+    }
+}
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .team {
+        font-size: .9rem;
+    }
+    .quarter {
+        font-size: .9rem;
+        padding-left: 1rem;
+        padding-right: 1rem;        
+    }    
+    .score {
+        font-size: 1.8rem;
+    }
+}
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .team {
+        font-size: 1rem;
+    }
+    .quarter {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }    
+    .score {
+        font-size: 1.9rem;
+    }
+}
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+    .team {
+        font-size: 1rem;
+    }
+    .quarter {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }    
+    .score {
+        font-size: 2rem;
+    }
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .team {
+        font-size: 1rem;
+    }
+    .quarter {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }    
+    .score {
+        font-size: 2.2rem;
+    }
+}
