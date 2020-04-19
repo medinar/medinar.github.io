@@ -16,6 +16,12 @@
     font-size: 2.5rem;
     font-weight: 700;
 }
+#title .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    padding: 2rem 0rem;
+}
 
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {

@@ -28,6 +28,10 @@ body {
   margin-top: -4rem;
 }
 /* Navigation */
+.ads-banner {
+  margin: 10px 0rem;
+}
+
 .home-navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -51,6 +55,19 @@ body {
 
   /* #CF5300 Hex Color | RGB: 207, 83, 0 | BURNT ORANGE, ORANGE RED. */
   color: #CF5300;
+}
+.separator {
+  height: 1px;
+  width: 100%;
+  max-width: 1440px;
+  background-color: gold;
+}
+#small-banner .blockquote {
+  margin: 1rem 0px;
+  max-width: 1400px;
+  padding: .7rem 3rem;
+  font-size: 1rem;
+  background-color: rgb(28, 28, 53);
 }
 /* Navigation */
 
@@ -129,7 +146,7 @@ text-decoration: none;
   margin: 0px!important;
 }
 .game-cards-header {
-  margin-top: 5rem;;
+  /* margin-top: 5rem;; */
   background-image: url("img/bg-banner-black.png");
   background-size:100% 100%;
   text-transform: uppercase;
@@ -323,7 +340,22 @@ hr.socket {
   }
   .game-card-container {
     padding: 0px 0px 90px 0px;
+  }
+  .ads-banner {
+    margin: 0px 0rem;
   }  
+}
+
+/* @media (max-width: 993px) {
+  .separator {
+    height: 5px;
+  }  
+} */
+
+@media (max-width: 1200px) {
+  .separator {
+    height: 5px;
+  }
 }
 /* Media Queries */
 
