@@ -1,10 +1,14 @@
-.game-header div {
+.game-header {
     /* border: lightgray dashed 1pt; */
+    border-top: solid 1pt darkgray;
 }
 .team {
     font-weight: 700;
+    padding: 0px 5px;
 }
 .quarter {
+    border-left: solid 2px gold;
+    border-right: solid 2px white;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -20,11 +24,10 @@
     }
     .quarter {
         font-size: .8rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2rem 1rem;
     }
     .score {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 /* Small (sm) devices (landscape phones, 576px and up) */
@@ -34,11 +37,10 @@
     }
     .quarter {
         font-size: .9rem;
-        padding-left: 1rem;
-        padding-right: 1rem;        
+        padding: 2rem 1rem;                
     }    
     .score {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
 /* Medium (md) devices (tablets, 768px and up) */
@@ -48,11 +50,10 @@
     }
     .quarter {
         font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2rem 1rem;
     }    
     .score {
-        font-size: 1.9rem;
+        font-size: 2.2rem;
     }
 }
 /* Large (lg) devices (desktops, 992px and up) */
@@ -62,11 +63,10 @@
     }
     .quarter {
         font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 1.2rem 1rem;
     }    
     .score {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 }
 /* Extra (xl) large devices (large desktops, 1200px and up) */
@@ -76,10 +76,9 @@
     }
     .quarter {
         font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 1.2rem 1rem;
     }    
     .score {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
     }
 }
