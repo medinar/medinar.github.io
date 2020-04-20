@@ -1,14 +1,18 @@
 .game-header {
-    /* border: lightgray dashed 1pt; */
-    border-top: solid 1pt darkgray;
+    /* background-color: rgb(158, 19, 22, .90); */
+    background-color: rgb(158, 19, 22);
+
+}
+.game-header img {
+    height: 24px;
 }
 .team {
     font-weight: 700;
     padding: 0px 5px;
 }
 .quarter {
-    border-left: solid 2px gold;
-    border-right: solid 2px white;
+    border-left: solid 2px rgb(7, 101, 198);
+    border-right: solid 2px #357500;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -19,14 +23,23 @@
 #boxscores-body .row {
     max-width: 1400px;
 }
-/* #boxscores-body div { */
-    /* border: lightblue 1pt dashed; */
-/* } */
-.boxscores-tbl-header {
-    background-color: #162856;
+#boxscore-home .row,
+#boxscore-away .row {
+    max-width: 1400px;
 }
-.boxscores-tbl-header img {
-    height: 55px;
+#boxscore-home .boxscores-tbl-header {
+    background-color: #0765c6;
+}
+#boxscore-home .boxscores-tbl-header img {
+    height: 60px;
+    margin: 15px 10px;
+}
+#boxscore-away .boxscores-tbl-header {
+    background-color: #048b27;
+}
+#boxscore-away .boxscores-tbl-header img {
+    height: 60px;
+    margin: 15px 10px;
 }
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
