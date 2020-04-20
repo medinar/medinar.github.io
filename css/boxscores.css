@@ -27,6 +27,16 @@
 #boxscore-away .row {
     max-width: 1400px;
 }
+#boxscore-home .player,
+#boxscore-away .player {
+    text-align: left!important;
+}
+#boxscore-home td,
+#boxscore-away td,
+#boxscore-home thead,
+#boxscore-away thead {
+    text-align: center;
+}
 #boxscore-home .boxscores-tbl-header {
     background-color: #0765c6;
 }
