@@ -65,11 +65,13 @@ thead {
     padding: 0px 10px;
 }
 .coach-lbl, .asst-coach-lbl {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+    color: black;
 }
 .coach-val, .asst-coach-val {
-    font-size: 14px;
+    font-size: 12px;
+    color: black;
 }
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
