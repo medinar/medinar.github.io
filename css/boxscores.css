@@ -1,6 +1,6 @@
 .game-header {
-    /* background-color: rgb(158, 19, 22, .90); */
-    background-color: rgb(158, 19, 22);
+    background-color: rgb(158, 19, 22, .90);
+    /* background-color: rgb(158, 19, 22); */
 
 }
 .game-header img {
@@ -34,6 +34,12 @@
     height: 60px;
     margin: 15px 10px;
 }
+thead {
+    font-size: 12px;
+}
+.table> tbody > tr > td {
+    font-size: 12px;
+}
 #boxscore-away .boxscores-tbl-header {
     background-color: #048b27;
 }
@@ -41,6 +47,7 @@
     height: 60px;
     margin: 15px 10px;
 }
+
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     .team {

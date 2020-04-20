@@ -307,6 +307,12 @@ hr.socket {
   border-top: .2rem solid #666b71;
   margin-top: 3rem;
 }
+.contact p {
+  font-size: 12px;
+}
+.copyright {
+  font-size: 12px;
+}
 /* Contact Section */
 
 /* Media Queries */
@@ -331,9 +337,6 @@ hr.socket {
     max-width: 50%;
     display: block;
     margin: 0 auto;
-  }
-  .copyright {
-    font-size: .6rem;
   }
   .game-card {
     min-width: 441px;
