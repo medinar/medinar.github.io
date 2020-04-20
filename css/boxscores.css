@@ -21,11 +21,11 @@
     font-weight: 700;
 }
 #boxscores-body .row {
-    max-width: 1400px;
+    max-width: 980px;
 }
 #boxscore-home .row,
 #boxscore-away .row {
-    max-width: 1400px;
+    max-width: 980px;
 }
 #boxscore-home .player,
 #boxscore-away .player {
