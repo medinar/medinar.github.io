@@ -57,7 +57,20 @@ thead {
     height: 60px;
     margin: 15px 10px;
 }
-
+.boxscores-tbl-footer {
+    margin: 20px 0px 30px;
+}
+.coach, .asst-coach {
+    width: 245px;   
+    padding: 0px 10px;
+}
+.coach-lbl, .asst-coach-lbl {
+    font-size: 18px;
+    font-weight: 700;
+}
+.coach-val, .asst-coach-val {
+    font-size: 14px;
+}
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     .team {
