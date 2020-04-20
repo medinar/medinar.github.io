@@ -26,14 +26,14 @@
 /* Extra small (xs) devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     .team {
-        font-size: .8rem;
+        font-size: .6rem;
     }
     .quarter {
-        font-size: .8rem;
-        padding: 2rem 1rem;
+        font-size: .6rem;
+        padding: 2rem .8rem;
     }
     .score {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 }
 /* Small (sm) devices (landscape phones, 576px and up) */
