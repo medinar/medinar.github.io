@@ -675,34 +675,23 @@
         </section>
         <!-- End of Boxscores Away Section -->
 
-        <!-- Start Contact Setion -->
-        <section class="offset">
-            <footer>
-                <div class="row justify-content-center">
-                    <div class="contact col-md-5 text-center">
-                        <img src="../img/hs-logo-160x160.png">
-                        <p>At our core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
-                        <strong>Contact Info</strong>
-                        <p>(632) 559-8069<br>support@hoopsscores.com</p>
-                        <a href="https://www.facebook.com/mheldmedina" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://github.com/medinar" target="_blank"><i class="fab fa-github-square"></i></a>
-                        <a href="https://www.linkedin.com/in/rommel-medina-17bb9b30/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
-
-                    <hr class="socket">
-                    <p class="copyright text-center">Copyright &copy; 2020 HoopsScores by Quarantine Apps, LLC. All rights reserved.</p>
-                </div>
-            </footer>
-        </section>
-        <!-- End Contact Section -->
+        <!-- Start Footer Setion -->
+        <section id="footer"></section>
+        <!-- End Footer Section -->
 
     </section>
     <!-- End of main section -->
 
     <!--- Script Source Files -->
-    <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-    <script src="../https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery.includeHTML.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#footer").loadHTML("../includes/footer.html");
+        });
+    </script>
     <!--- End of Script Source Files -->    
 </body>
 </html>
