@@ -1,20 +1,105 @@
-<!-- Start Contact Setion -->
-<section id=footer class="offset">
-    <footer>
-        <div class="row justify-content-center">
-            <div class="contact col-md-5 text-center">
-                <img src="../img/hs-logo-160x160.png">
-                <p>At our core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
-                <strong>Contact Info</strong>
-                <p>(632) 559-8069<br>support@hoopsscores.com</p>
-                <a href="https://www.facebook.com/mheldmedina" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://github.com/medinar" target="_blank"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/rommel-medina-17bb9b30/" target="_blank"><i class="fab fa-linkedin"></i></a>
+<footer>
+    <div id="contact" class="container-fluid d-flex justify-content-center px-0">
+        <div class="row container-fluid justify-content-center px-0">                       
+            <div class="col container-fluid d-flex flex-column px-0">
+                <p class="contact-label">General</p>
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">FAQ</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact Us</a>            
             </div>
-
-            <hr class="socket">
-            <p class="copyright text-center">Copyright &copy; 2020 HoopsScores by Quarantine Apps, LLC. All rights reserved.</p>
+            <div class="col container-fluid d-flex flex-column px-0">
+                <p class="contact-label">About</p>
+                <a href="#">About Us</a>
+                <a href="#">Disclaimer</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Sitemap</a>            
+            </div>
+            <div class="col container-fluid d-flex flex-column px-0">
+                <p class="contact-label">Qapps PH</p>
+                <p>Paseo de Roxas, Makati City Philippines</p>
+                <p>Phone: (632) 000 0000</p>
+                <p>support@qapp.com</p>
+            </div>
+            <div class="col container-fluid d-flex flex-column px-0">
+                <p class="contact-label">Certificate & Alliances</p>
+                <img class="img-fluid" src="../img/iso-9001.png" height="90px" width="200px">           
+            </div>
         </div>
-    </footer>
-</section>
-<!-- End Contact Section -->
+    </div>
+
+    <div id="copyright" class="container-fluid d-flex justify-content-center px-0">
+        <div class="row container-fluid justify-content-center px-0">
+            <div class="container-fluid d-flex justify-content-center px-0">
+                <div id="logo-app-name">
+                    <img src="../img/hs-logo-160x160.png" height="90px">
+                    <span id="app-name">Hoops Scores</span>
+                </div>
+                <div id="social" class="px-4 my-auto">
+                    <a href="https://www.facebook.com/mheldmedina" target="_blank"><i class="fab fa-facebook-square fa-2x text-light"></i></a>
+                    <a href="https://github.com/medinar" target="_blank"><i class="fab fa-github-square fa-2x text-light"></i></a>
+                    <a href="https://www.linkedin.com/in/rommel-medina-17bb9b30/" target="_blank"><i class="fab fa-linkedin fa-2x text-light"></i></a>
+                </div>
+            </div>                        
+            <div class="container-fluid d-flex justify-content-center px-0">
+                <span id="partners">Partners: QApps | LogoDesign | WebsiteDesignerStudio</span>
+            </div>                        
+            <div class="container-fluid d-flex justify-content-center px-0">
+                <span id="copyright-content">Copyright &copy; 2020 HoopsScores by Quarantine Apps, LLC. All rights reserved.</span>
+            </div>
+            <div id="bottom" class="container-fluid d-flex justify-content-center px-0"></div>
+        </div>
+    </div>
+</footer>
+<style>
+#contact {
+    background-color: #010101;
+    color: white;
+}
+#contact .row {
+    margin:  24px 48px; 
+}
+#contact .contact-label {
+    font-size: 14px;
+    color: white;
+}
+#contact a, p {
+    font-size: 12px;
+    color: #A2A2A5;
+}
+#copyright {
+    background-color: #BF0B29;
+    /* background-color: #463235; */
+}
+#copyright div {
+    /* border: lightblue dashed 1pt; */
+}
+#logo-app-name {
+    margin: 1.5rem 0px 1rem;
+    padding: 24px 24px;
+    border-right: #A2A2A5 solid 1.5px!important;
+}
+#app-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding-left: 8px;
+}
+#copyright-content, #partners {
+    font-size: 10px;
+    color: white;
+    letter-spacing: .5px;
+    padding: 10px 0px;
+}
+#bottom {
+    background-color: #010101;
+    height: 10px;
+}
+@media (max-width: 767px) {
+    #contact .row {
+        margin:  24px 15px; 
+    }
+}
+</style>
