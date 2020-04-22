@@ -17,13 +17,13 @@
         </div>
         <section id="body-wrapper">
             <div class="container-fluid d-flex flex-column justify-content-center hs-no-sidebar">
-                <div class="page-header row container-fluid">
+                <div class="page-header row container-fluid ml-1">
                     <span class="page-title">FIBA ASIA CHAMPIONS CUP 2019</span>
                 </div>
-                <div class="table-header row container-fluid">
-                    <span class="table-title"></span>ELIMINATIONS</span>
+                <div class="table-header row container-fluid ml-1">
+                    <span class="table-title">ELIMINATIONS</span>
                 </div>
-                <div class="table-content row container-fluid px-0">
+                <div class="table-content row container-fluid ml-1 px-0">
                     <table class="elims-table table table-striped table-sm table-hover">
                         <thead>
                           <tr>
@@ -142,10 +142,12 @@
         color: #010101;
     }
     .table-header {
+        padding: 2rem 1rem 1rem;
+    }
+    .table-title {
         font-size: 30px;
         font-weight: 700;
         color: #463235;
-        padding: 2rem 1rem 1rem;
     }
     .elims-table {
         padding: 0px;
@@ -156,10 +158,12 @@
     .elims-table td {
         text-align: center;
         font-size: 14px;
+        padding: 12px
     }
     .elims-table td.team-name {
         text-align: left;
         font-weight: 700;
+        color: #463235;
     }
     .elims-table th.team_no {
         padding-left: 1rem!important;
@@ -170,4 +174,52 @@
     ul.legend-list {
         font-size: 12px;
     }
+
+    @media (max-width: 767px) {
+        .page-title {
+            font-size: 29px;
+        }
+        .table-title {
+            font-size: 24px;
+        }       
+    }
+
+    @media (min-width: 768px) {
+        .page-title {
+            font-size: 29px;
+        }
+        .table-title {
+            font-size: 29px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .page-title {
+            font-size: 42px;
+        }
+    }
+    /* @media (min-width: 1200px) {
+        .page-title {
+            font-size: 40px;
+        }
+    }     */
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/    
 </style>
