@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=6.0">
+    <title>Styling Guide - HoopsScores.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="hs-container">
+        <div class="hs-content-wrapper">
+            content
+        </div>        
+    </div>
+
+    <table>
+        <thead>
+            <th></th>
+            <th>Default</th>
+            <th>sm</th>
+            <th>md</th>
+            <th>lg</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td height="100">Primary</td>
+                <td height="100"><a class="hs-btn-primary" href="#">hs-btn-primary</a></td>
+                <td height="100"><a class="hs-btn-primary sm" href="#">hs-btn-primary sm</a></td>
+                <td height="100"><a class="hs-btn-primary md" href="#">hs-btn-primary md</a></td>
+                <td height="100"><a class="hs-btn-primary lg" href="#">hs-btn-primary lg</a></td>
+            </tr>
+            <tr>
+                <td height="100">Secondary</td>
+                <td height="100"><a class="hs-btn-secondary" href="#">hs-btn-secondary</a></td>
+                <td height="100"><a class="hs-btn-secondary sm" href="#">hs-btn-secondary sm</a></td>
+                <td height="100"><a class="hs-btn-secondary md" href="#">hs-btn-secondary md</a></td>
+                <td height="100"><a class="hs-btn-secondary lg" href="#">hs-btn-secondary lg</a></td>
+            </tr>
+            <tr>
+                <td height="100">Links</td>
+                <td height="100"><a class="hs-link" href="#">hs-link</a></td>
+                <td height="100"><a class="hs-link" href="#">hs-link sm</a></td>
+                <td height="100"><a class="hs-link" href="#">hs-link md</a></td>
+                <td height="100"><a class="hs-link" href="#">hs-link lg</a></td>
+            </tr>
+            <tr>
+                <td bgcolor="#01010101" style="color: #777777">Links</td>
+                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link</a></td>
+                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link sm</a></td>
+                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link md</a></td>
+                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link lg</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>Paragraph</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <span>Span</span>
+    <button>Button</button>
+
+    <ul>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+    </ul>
+    <ol>
+        <li>Ordered List Items</li>
+        <li>Ordered List Items</li>
+        <li>Ordered List Items</li>
+        <li>Ordered List Items</li>
+        <li>Ordered List Items</li>
+    </ol>
+    <table>
+        <thead>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </thead>
+        <tbody>
+            <td>Detail 1</td>
+            <td>Detail 2</td>
+            <td>Detail 3</td>
+            <td>Detail 4</td>
+        </tbody>
+    </table>
+<br>
+<div class="test">
+    <a href="#">Hyperlinks</a>
+</div>
+</body>
+</html>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #505962;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Oswald', sans-serif;
+        color: #010101;
+    }
+    a {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #010101;
+        text-decoration: none;
+        transition: all 0.3s ease 0s;
+    }
+    a:hover {
+        color: #777777;
+    }
+    .hs-link-light {
+        color: white;        
+    }
+    .hs-link-light:hover {
+        color: #777777;
+    }
+    .hs-btn-primary {
+        color: #A2A2A5;
+        border: #A2A2A5 1pt solid;
+        border-radius: 8px;
+        background-color: transparent;
+        display: block;
+        text-align: center;
+        min-width: 144px;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .hs-btn-secondary {
+        color: white;
+        border: #010101 1pt solid;
+        border-radius: 8px;
+        background-color: #010101;
+        display: block;
+        text-align: center;
+        min-width: 144px;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .hs-btn-primary.sm,
+    .hs-btn-secondary.sm {
+        height: 42px;
+        line-height: 42px;
+    }
+    .hs-btn-primary.md,
+    .hs-btn-secondary.md {
+        height: 60px;
+        line-height: 60px;
+    }
+    .hs-btn-primary.lg,
+    .hs-btn-secondary.lg {
+        height: 72px;
+        line-height: 72px;
+    }
+    .hs-btn-primary:hover,
+    .hs-btn.primary.sm:hover,
+    .hs-btn.primary.md:hover,
+    .hs-btn.primary.lg:hover {
+        color: #010101;
+        border: #010101 1pt solid;
+    }
+    .hs-btn-secondary:hover,
+    .hs-btn.secondary.sm:hover,
+    .hs-btn.secondary.md:hover,
+    .hs-btn.secondary.lg:hover {
+        color: #010101;
+        border: #010101 1pt solid;
+        background-color: transparent;
+    }
+
+    .hs-container {
+        border: 1px dashed black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hs-content-wrapper {
+        border: 1px dashed green;
+        width: 100%;
+        max-width: 980px;
+        margin: 30px 16px;
+    }
+</style>
