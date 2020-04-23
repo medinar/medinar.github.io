@@ -10,3 +10,117 @@ body {
   max-width: 980px;
   padding: 0px;
 }
+
+/* ===== STYLE GUIDE ===== */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #505962;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  color: #010101;
+}
+td {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #010101;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: #777777;
+}
+.hs-text-light,
+.hs-text-dark:hover {
+  color: white;        
+}
+.hs-text-dark,
+.hs-text-light:hover {
+  color: #777777;        
+}
+.hs-text-caption {
+  font-size: 14px;
+}
+.hs-text-footer {
+  font-size: 12px;
+}
+.hs-btn-primary {
+  color: #A2A2A5;
+  border: #A2A2A5 1pt solid;
+  border-radius: 8px;
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  min-width: 144px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.hs-btn-secondary {
+  color: white;
+  border: #010101 1pt solid;
+  border-radius: 8px;
+  background-color: #010101;
+  display: block;
+  text-align: center;
+  min-width: 144px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.hs-btn-primary.sm,
+.hs-btn-secondary.sm {
+  height: 42px;
+  line-height: 42px;
+}
+.hs-btn-primary.md,
+.hs-btn-secondary.md {
+  height: 60px;
+  line-height: 60px;
+}
+.hs-btn-primary.lg,
+.hs-btn-secondary.lg {
+  height: 72px;
+  line-height: 72px;
+}
+.hs-btn-primary:hover,
+.hs-btn.primary.sm:hover,
+.hs-btn.primary.md:hover,
+.hs-btn.primary.lg:hover {
+  color: #010101;
+  border: #010101 1pt solid;
+}
+.hs-btn-secondary:hover,
+.hs-btn.secondary.sm:hover,
+.hs-btn.secondary.md:hover,
+.hs-btn.secondary.lg:hover {
+  color: #010101;
+  border: #010101 1pt solid;
+  background-color: transparent;
+}
+
+.hs-container {
+  border: 1px dashed black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hs-content-wrapper {
+  border: 1px dashed green;
+  width: 100%;
+  max-width: 980px;
+  margin: 30px 16px;
+}
+/* ===== STYLE GUIDE ===== */
