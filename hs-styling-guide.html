@@ -46,10 +46,10 @@
             </tr>
             <tr>
                 <td bgcolor="#01010101" style="color: #777777">Links</td>
-                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link</a></td>
-                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link sm</a></td>
-                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link md</a></td>
-                <td bgcolor="#01010101"><a class="hs-link-light" href="#">hs-link lg</a></td>
+                <td bgcolor="#01010101"><a class="hs-text-light" href="#">hs-text-light</a></td>
+                <td bgcolor="#01010101"><a class="hs-text-light" href="#">hs-text-light</a></td>
+                <td bgcolor="#01010101"><a class="hs-text-light" href="#">hs-text-light</a></td>
+                <td bgcolor="#01010101"><a class="hs-text-light" href="#">hs-text-light</a></td>
             </tr>
         </tbody>
     </table>
@@ -90,10 +90,18 @@
             <th>Header 4</th>
         </thead>
         <tbody>
-            <td>Detail 1</td>
-            <td>Detail 2</td>
-            <td>Detail 3</td>
-            <td>Detail 4</td>
+            <tr>
+                <td>Detail 1</td>
+                <td>Detail 2</td>
+                <td>Detail 3</td>
+                <td>Detail 4</td>
+            </tr>
+            <tr>
+                <td>0123456789</td>
+                <td>0123456789</td>
+                <td>0123456789</td>
+                <td>0123456789</td>
+            </tr>
         </tbody>
     </table>
 <br>
@@ -116,6 +124,9 @@
         font-family: 'Oswald', sans-serif;
         color: #010101;
     }
+    td {
+        font-family: 'Lato', sans-serif;
+    }
     a {
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
@@ -127,11 +138,19 @@
     a:hover {
         color: #777777;
     }
-    .hs-link-light {
+    .hs-text-light,
+    .hs-text-dark:hover {
         color: white;        
     }
-    .hs-link-light:hover {
-        color: #777777;
+    .hs-text-dark,
+    .hs-text-light:hover {
+        color: #777777;        
+    }
+    .hs-text-caption {
+        font-size: 14px;
+    }
+    .hs-text-footer {
+        font-size: 12px;
     }
     .hs-btn-primary {
         color: #A2A2A5;
