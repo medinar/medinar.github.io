@@ -11,69 +11,44 @@
 <body>
     <section id="navigation"></section>
     <div class="hs-container">        
-        <div class="content-wrapper">
-            <section id="page-header">
-                <h1>Naft Abadan</h1>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </section>
-            <section id="team-nav">
-                <h2>Team Navigation Bar</h2>
-                <!-- 
-                    - Overview
-                    - Roster
-                    - Games
-                    - Stats
-                    - Photos
-                 -->
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-                 <br>
-            </section>
-            <section id="team-roster">
-                <h2>Team Roster</h2>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </section>
-            <section id="games">
-                <h2>Team Games</h2>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </section>
-            <section id="stats">
-                <h2>Team Stats</h2>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </section>
-            <section id="photos">
-                <h2>Team Photos</h2>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </section>
-        </div>        
+        <section id="page-header">
+            <div class="hs-section">
+                <h1 class="hs-page-title">Naft Abadan</h1>
+            </div>
+        </section>
+        <section id="team-navbar">
+            <div class="hs-section">
+                <h4>Team Navigation Bar</h4>
+            </div>
+            
+            <!-- 
+                - Overview
+                - Roster
+                - Games
+                - Stats
+                - Photos
+                -->
+        </section>
+        <section id="team-roster">
+            <div class="hs-section">
+                <h4 class="hs-section-title">Team Roster</h4>
+            </div>
+        </section>
+        <section id="games">
+            <div class="hs-section">
+                <h4 class="hs-section-title">Team Games</h4>
+            </div>
+        </section>
+        <section id="stats">
+            <div class="hs-section">
+                <h4 class="hs-section-title">Team Stats</h4>
+            </div>
+        </section>
+        <section id="photos">
+            <div class="hs-section">
+                <h4 class="hs-section-title">Team Photos</h4>
+            </div>
+        </section>
     </div>
     <section id="footer"></section>
     <!--- Script Source Files -->
@@ -90,3 +65,22 @@
     <!--- End of Script Source Files -->
 </body>
 </html>
+<style>
+    .hs-section {
+        /* border: red dashed 1px; */
+        margin-top: 30px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 30px;        
+    }
+    .hs-page-title {
+        border-bottom: #010101 solid 3px;
+        padding-left: 16px;
+    }
+    .hs-section-title {
+        border-bottom: #777777 solid 2px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+    }
+</style>

@@ -113,14 +113,18 @@ a:hover {
 .hs-container {
   border: 1px dashed black;
   height: 100%;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-}
-.hs-content-wrapper {
-  border: 1px dashed green;
-  width: 100%;
+  justify-content: center; */
   max-width: 980px;
-  margin: 30px 16px;
+  margin: auto;
 }
+/* .hs-content-wrapper {
+  border: 1px dashed green;
+
+}
+.hs-content-wrapper div {
+  border: 1px dashed red;
+} */
+
 /* ===== STYLE GUIDE ===== */
