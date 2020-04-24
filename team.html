@@ -11,37 +11,56 @@
 <body>
     <section id="navigation"></section>
     <div class="hs-container">        
-        <section id="page-header">
-            <div class="hs-section">
-                <h1 class="hs-page-title">Naft Abadan</h1>
+        <section id="profile">
+            <div class="hs-section bg-light mb-0">
+                <div class="team-info">
+                    <img class="team-logo" src="img/fibaasiachampionscup/naft-abadan.png">
+                    <div class="team-name">
+                        <h3>Naft Abadan</h3>
+                        <span>Iran</span>    
+                    </div>
+                </div>
+                <div class="coaches">
+                    <h5 class="coach-label">HEAD COACH</h5>
+                    <span>Head Coach</span>
+                    <h5 class="coach-label">ASSISTANT COACHES</h5>
+                    <ul>
+                        <li>Assitant Coach 1</li>
+                        <li>Assitant Coach 2</li>
+                        <li>Assitant Coach 3</li>
+                        <li>Assitant Coach 4</li>
+                        <li>Assitant Coach 5</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="team-navbar">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#team-navbarNav" aria-controls="team-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="team-navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Overview</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#roster">Roster</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#games">Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#stats">Stats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#photos">Photos</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>                
-        
+            <div class="hs-section sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#team-navbarNav" aria-controls="team-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="team-navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#roster">Roster</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#stats">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#photos">Photos</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>                
+            </div>
             <section id="roster">
                 <div class="hs-section">
                     <h4 class="hs-section-title">Team Roster</h4>
@@ -116,5 +135,29 @@
 </body>
 </html>
 <style>
-
+    .team-info {
+        display: flex;
+        flex-direction: row;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        border-bottom: 3px #010101 solid;
+    }
+    .team-name {
+        padding-left: 10px;
+    }
+    .team-logo {
+        height: 55px;
+        width: 55px;
+    }
+    .coaches {
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+    }
+    .coach-label {
+        border-bottom: 1px #777777 solid;
+        padding-top: 12px;
+    }
 </style>

@@ -25,6 +25,9 @@ h6 {
   font-family: 'Oswald', sans-serif;
   color: #010101;
 }
+ul {
+  margin: 0;
+}
 td {
   font-family: 'Lato', sans-serif;
 }
@@ -109,31 +112,22 @@ a:hover {
   border: #010101 1pt solid;
   background-color: transparent;
 }
-
 .hs-container {
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   height: 100%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   max-width: 980px;
   margin: auto;
   margin-top: 30px;
 }
-/* .hs-content-wrapper {
-  border: 1px dashed green;
-
-}
-.hs-content-wrapper div {
-  border: 1px dashed red;
-} */
 .hs-section {
   /* border: red dashed 1px; */
-  /* margin-top: 30px; */
   margin-right: 16px;
   margin-left: 16px;
   margin-bottom: 30px;        
 }
+/* .hs-section div {
+  border: green dashed 1px;      
+} */
 .hs-page-title {
   border-bottom: #010101 solid 3px;
   padding-left: 16px;
