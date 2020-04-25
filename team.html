@@ -251,31 +251,21 @@
                 </section>
                 <section id="stats">
                     <div class="hs-section">
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
-                        <h4 class="hs-section-title">Team Stats</h4>
+                        <h4 class="hs-section-title">Stats</h4>
+                        Team Statistics
+                        <div class="section-footer bg-light">
+                            <a href="#">See full stats <i class="fas fa-external-link-alt"></i></a>                        
+                        </div>
                     </div>
                 </section>
                 <section id="photos">
                     <div class="hs-section">
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                        <h4 class="hs-section-title">Team Photos</h4>
-                    </div>
+                        <h4 class="hs-section-title">Photos</h4>
+                        Team Photos
+                        <div class="section-footer bg-light">
+                            <a href="#">See full gallery <i class="fas fa-external-link-alt"></i></a>                        
+                        </div>
+                    </div>                    
                 </section>
             </div>
         </section>
@@ -356,6 +346,7 @@
         background-color:rgb(230, 232, 234);
         padding-top: 6px;
         padding-bottom: 6px;
+        color: #010101;
     }
     /* .game-card div {
         border: 1px red dashed;
@@ -381,5 +372,57 @@
         font-family: 'Oswald', sans-serif;
         font-size: 20px;
         color: #010101;        
-    }    
+    }
+    
+    @media (max-width: 767px) {
+        .score {
+            font-size: 32px;
+        }
+        .team-logo-md {        
+            width: 50px;
+            height: 50px;
+        }
+        .quarter-label {
+            font-size: 20px;
+        }
+        .quarter {
+            padding-right: 32px;
+            padding-left: 32px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .score {
+            font-size: 32px;
+        }
+        .team-logo-md {        
+            width: 40px;
+            height: 40px;
+        }
+        .quarter-label {
+            font-size: 18px;
+        } 
+        .quarter {
+            padding-right: 24px;
+            padding-left: 24px;
+        }               
+    }
+
+    @media (min-width: 992px) {
+        .score {
+            font-size: 32px;
+        }
+        .team-logo-md {        
+            width: 60px;
+            height: 60px;
+        }
+        .quarter-label {
+            font-size: 20px;
+        } 
+        .quarter {
+            padding-right: 32px;
+            padding-left: 32px;
+        }               
+    }
+    
 </style>

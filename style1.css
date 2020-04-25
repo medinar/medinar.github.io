@@ -124,7 +124,7 @@ a:hover {
   margin-top: 24px;
 }
 .hs-section {
-  border: red dashed 1px;
+  /* border: red dashed 1px; */
   margin-bottom: 24px;        
 }
 /* .hs-section div {
@@ -139,6 +139,7 @@ a:hover {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
+  background-color: var(--light);
 }
 .hs-label {
   font-size: 14.4px;
