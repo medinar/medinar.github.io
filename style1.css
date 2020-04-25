@@ -114,27 +114,22 @@ a:hover {
 }
 .hs-full-container {
   border: 1px dashed black;
-  /* height: 100%; */
-  /* margin: auto; */
-  margin-top: 30px;
+  margin-top: 24px;
 }
 .hs-container {
   /* border: 1px dashed black; */
   height: 100%;
   max-width: 980px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 .hs-section {
-  /* border: red dashed 1px; */
-  margin-right: 16px;
-  margin-left: 16px;
-  margin-bottom: 30px;        
+  border: red dashed 1px;
+  margin-bottom: 24px;        
 }
 /* .hs-section div {
   border: green dashed 1px;      
-}
- */
+} */
 .hs-page-title {
   border-bottom: #010101 solid 3px;
   padding-left: 16px;
