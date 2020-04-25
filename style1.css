@@ -112,8 +112,14 @@ a:hover {
   border: #010101 1pt solid;
   background-color: transparent;
 }
+.hs-full-container {
+  border: 1px dashed black;
+  /* height: 100%; */
+  /* margin: auto; */
+  margin-top: 30px;
+}
 .hs-container {
-  /* border: 1px dashed black; */
+  border: 1px dashed black;
   height: 100%;
   max-width: 980px;
   margin: auto;
