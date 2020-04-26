@@ -22,7 +22,6 @@ thead {
   font-size: 12px;
   background-color: var(--hs-black);
   color: white;
-  border: 0;
 }
 .table> tbody > tr > td {
   font-size: 12px;
@@ -48,22 +47,19 @@ tfoot>tr>td {
   color: var(--hs-black);
 }
 .hs-table-header {
-  background-color: var(--hs-dark-gray);
-  margin-top: 24px;
-  margin-right: 16px;
+  background-color: var(--hs-dark-gray); 
   margin-bottom: 0px;
-  margin-left: 16px;
-  height: 60px;
+  height: 90px;
 }
 .hs-table-header-title {
   color: white;
   padding-left: 16px;
 }
 .hs-table-container {
-  margin-top: 0px;
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-top: 24px;
   margin-bottom: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 /* Table */
 
