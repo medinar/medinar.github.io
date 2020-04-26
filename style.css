@@ -212,6 +212,9 @@ a:hover {
   padding-bottom: 12px;
   padding-left: 16px;
 }
+.hs-team-logo {
+  height: 30px;
+}
 :root {
   --hs-black: #010101;
   --hs-red: #BF0B29;

@@ -11,414 +11,304 @@
     <link rel="stylesheet" href="css/schedules.css">
     <link rel="stylesheet" href="css/boxscores.css">
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
-    <section id="main">
-        <!-- Start of Banner Main -->
-        <section id="main-banner">
-            <div class="container-fluid bg-dark pl-0 pr-0">
-                <div class="row justify-content-center">
-                    <img class="ads-banner img-fluid" src="https://via.placeholder.com/930x80" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Start of Banner Main -->
-
-        <!-- Start of Navigation -->
-        <div class="container-fluid d-none d-lg-inline">
-            <nav class="home-navbar navbar navbar-expand-md navbar-dark bg-dark pt-0 pb-0">
-                <a class="navbar-brand" href="#">HooopsScores</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#home-navbar-items">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="home-navbar-items">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#scores">Scores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../includes/games.html">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#schedules">Schedules</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#stats">Stats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#standings">Standings</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- End of Navigation -->
-
-        <!-- Start of Banner Small -->
-        <section id="small-banner">
-            <div class="container-fluid pt-0 pb-0 pl-0 pr-0 bg-dark d-none d-lg-inline">
-                <div class="row d-flex justify-content-center">
-                    <img class="img-fluid w-100" src="https://via.placeholder.com/1440x70" alt="">
-                </div>
-                <div class="row no-gutters d-flex justify-content-center">
-                    <div class="separator"></div>
-                </div>
-            </div>
-        </section>
-        <!-- Start of Banner Small -->
-        <!-- Start of Boxscores Menu -->
-        <div class="col-12 pt-0 pb-0 pl-0 pr-0 sticky-top">
-            <div class="row no-gutters justify-content-center">
-                <nav class="sched-navbar navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 container-fluid">
-                    <!-- <a class="navbar-brand" href="#">HooopsScores</a> -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sched-navbar-items">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-        
-                    <div class="collapse navbar-collapse" id="sched-navbar-items">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item pt-0 pb-0 pl-0">
-                                <a class="nav-link" href="#">Stats Home</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Players</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Teams</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Scores</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Schedules</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Quick Links</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Playoffs</a>
-                            </li>
-                        </ul>
+<body>
+    <section id="navigation"></section>    
+    <section id="schedules">
+        <div class="container-fluid mt-4">
+            <div class="row justify-content-center">
+                <div class="filters container-fluid pr-0 pl-0 mb-3">
+                    <div class="row">
+                        <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
+                            <div class="label row">CALENDAR</div>
+                            <div class="row">March</div>
+                        </div>
+                        <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
+                            <div class="label row">TEAMS</div>
+                            <div class="row">All Teams</div>
+                        </div>
+                        <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
+                            <div class="label row">HIDE PREVIOUS DATES</div>
+                            <div class="row">
+                                <i class="fas fa-toggle-off fa-1x"></i>
+                            </div>
+                        </div>
+                        <div class="filter-item spacer col d-none d-lg-inline"></div>
+                        <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
+                            <div class="row justify-content-center">
+                                <img src="https://via.placeholder.com/150x40" alt="">
+                            </div>
+                        </div>
                     </div>
-                </nav>                  
+                </div>
             </div>
         </div>
-        <!-- Start of Schedules Menu -->
-        
-        <!-- Start of Banner Small -->
-        <section id="small-banner">
-            <div class="container-fluid">
-                <div class="row justify-content-center container-fluid">
-                    <blockquote class="blockquote text-light">
-                        <p class="mb-0">The HoopsScores has temporarily suspended its season in response to the coronavirus pandemic. The league will use this hiatus to determine next steps for moving forward in regard to this rapidly evolving situation.</p>
-                    </blockquote>
+        <div class="container-fluid d-none d-lg-inline mr-2 ml-2">
+            <div class="row justify-content-center">
+                <div class="sched-table-header container-fluid pr-0 pl-0">
+                    <div class="row">
+                        <div class="col">Date</div>
+                        <div class="col">Time</div>
+                        <div class="col">Teams</div>
+                        <div class="col">Venue</div>
+                        <div class="col"></div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Start of Banner Small -->
-    
-        <section id="schedules">        
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="filters container-fluid pr-0 pl-0 mb-3">
-                        <div class="row">
-                            <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
-                                <div class="label row">CALENDAR</div>
-                                <div class="row">March</div>
-                            </div>
-                            <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
-                                <div class="label row">TEAMS</div>
-                                <div class="row">All Teams</div>
-                            </div>
-                            <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
-                                <div class="label row">HIDE PREVIOUS DATES</div>
-                                <div class="row">
-                                    <i class="fas fa-toggle-off fa-1x"></i>
+        </div>
+        <div class="container-fluid pr-0 pl-0">
+            <div class="row justify-content-center">
+                <div class="week-header container-fluid mb-2">
+                    <div class="row">Week 19 (Feb 24 - Mar 1)</div>
+                </div>                
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="sched-item container-fluid pr-0 pl-0">
+                    <div class="row no-gutters">
+                        <div class="sched-details col-lg col-md-12 col-sm-12 col-xs-12">
+                            <p class="date mb-0">Sunday, March 1</p>
+                            <p class="week-no mb-0 text-small">WEEK 19 </p>
+                            <p class="games-no mb-0">7 GAMES</p>
+                        </div>
+                        <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 pt-0">
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
+                                        </div>
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
+                                        </div>
+                                    </div>                            
                                 </div>
-                            </div>
-                            <div class="filter-item spacer col d-none d-lg-inline"></div>
-                            <div class="filter-item col-lg-2 col-md-3 col-sm-12 col-xs-12 pt-1 pl-2 pb-1">
-                                <div class="row justify-content-center">
-                                    <img src="https://via.placeholder.com/150x40" alt="">
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-2">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid d-none d-lg-inline mr-2 ml-2">
-                <div class="row justify-content-center">
-                    <div class="sched-table-header container-fluid pr-0 pl-0">
-                        <div class="row">
-                            <div class="col">Date</div>
-                            <div class="col">Time</div>
-                            <div class="col">Teams</div>
-                            <div class="col">Venue</div>
-                            <div class="col"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pr-0 pl-0">
-                <div class="row justify-content-center">
-                    <div class="week-header container-fluid mb-2">
-                        <div class="row">Week 19 (Feb 24 - Mar 1)</div>
-                    </div>                
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="sched-item container-fluid pr-0 pl-0">
-                        <div class="row no-gutters">
-                            <div class="sched-details col-lg col-md-12 col-sm-12 col-xs-12">
-                                <p class="date mb-0">Sunday, March 1</p>
-                                <p class="week-no mb-0 text-small">WEEK 19 </p>
-                                <p class="games-no mb-0">7 GAMES</p>
-                            </div>
-                            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 pt-0">
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-2">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
-                                        </div>
-                                    </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
+                            </div>                    
+                            <hr> <!-- End of a game -->
 
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
                                         </div>
-                                    </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
                                         </div>
-                                    </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
                                         </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
                                     </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
                                         </div>
-                                    </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
                                         </div>
-                                    </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
-                                
-                                <!-- Start of a game -->
-                                <div class="row no-gutters">
-                                    <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
-                                        <div class="row no-gutters">
-                                            <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
-                                            <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
-                                                <div class="row">Milwaukee Bucks</div>
-                                                <div class="row">Charlotte Hornets</div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
-                                                <div class="row justify-content-center">93</div>
-                                                <div class="row justify-content-center">85</div>
-                                            </div>
-                                            <div class="venue col-lg-3 pt-0 pb-0">
-                                                <div class="row">Spectrum Center</div>
-                                                <div class="row">Charlotte, NC</div>
-                                            </div>
-                                        </div>                            
-                                    </div>
-                                    <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
-                                        <div class="row no-gutters justify-content-center">
-                                            <div class="col pt-0"></div>
-                                            <div class="col-md-10 pt-0 pb-0 text-right">
-                                                <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
-                                                <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
-                                            </div>                                                                   
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
                                         </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
                                     </div>
-                                </div>                    
-                                <hr> <!-- End of a game -->
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
+                                        </div>
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
+                                    </div>
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
+                                        </div>
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
+                                    </div>
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
+                                        </div>
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
+                                    </div>
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
+                            
+                            <!-- Start of a game -->
+                            <div class="row no-gutters">
+                                <div class="game-datails col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-0 pb-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-3 col-md-5 col-sm-4 col-4 pt-0 pb-0">FINAL</div>
+                                        <div class="col-lg-4 col-md-5 col-sm-6 col-6 pt-0 pb-0">
+                                            <div class="row">Milwaukee Bucks</div>
+                                            <div class="row">Charlotte Hornets</div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-2 pt-0 pb-0">
+                                            <div class="row justify-content-center">93</div>
+                                            <div class="row justify-content-center">85</div>
+                                        </div>
+                                        <div class="venue col-lg-3 pt-0 pb-0">
+                                            <div class="row">Spectrum Center</div>
+                                            <div class="row">Charlotte, NC</div>
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="btn-grp col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-0 pt-0">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="col pt-0"></div>
+                                        <div class="col-md-10 pt-0 pb-0 text-right">
+                                            <a href="#" class="btn btn-border mr-2" type="button">PLAY BY PLAY</a> 
+                                            <a href="#" class="btn btn-border" type="button">BOX SCORE</a>                                            
+                                        </div>                                                                   
+                                    </div>
+                                </div>
+                            </div>                    
+                            <hr> <!-- End of a game -->
 
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
-    
-    <!-- Start Contact Setion -->
     <section id="footer"></section>
-    <!-- End Contact Section -->
 
     <!--- Script Source Files -->
-    <script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-    <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/jquery.includeHTML.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.includeHTML.js"></script>
     <script>
         $(document).ready(function () {
-            $("#footer").loadHTML("../includes/footer.html");
+            $("#navigation").loadHTML("navigation.html");
+            $("#footer").loadHTML("footer.html");
         });
     </script>    
-    <!--- End of Script Source Files -->    
+    <!--- End of Script Source Files --> 
 </body>
 </html>
