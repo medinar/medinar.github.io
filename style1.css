@@ -135,16 +135,28 @@ a:hover {
   padding-left: 16px;
 }
 .hs-section-title {
-  border-bottom: #777777 solid 2px;
+  /* border-bottom: #777777 solid 2px; */
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
-  background-color: var(--light);
+  /* background-color: var(--light); */
+  background-color: var(--hs-red-maple);
+  color: white;
 }
 .hs-label {
   font-size: 14.4px;
   color: #010101;
   padding-left: 0;
 }
-
+.nav-tabs .nav-link.active {
+  background-color: var(--hs-red-maple);
+  border-bottom: var(--hs-red-maple);
+  color: white;
+  border: 1px solid var(--hs-red-maple);
+}
+:root {
+  --hs-black: #010101;
+  --hs-red: #BF0B29;
+  --hs-red-maple: #D10000;
+}
 /* ===== STYLE GUIDE ===== */
