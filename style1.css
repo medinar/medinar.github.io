@@ -58,7 +58,9 @@ tfoot>tr>td {
 .hs-table-container {
   margin-top: 24px;
   margin-bottom: 24px;
+  padding-top: 16px;
   padding-right: 16px;
+  padding-bottom: 16px;
   padding-left: 16px;
 }
 /* Table */
@@ -200,6 +202,13 @@ a:hover {
   border-bottom: var(--hs-red-maple);
   color: white;
   border: 1px solid var(--hs-red-maple);
+}
+.hs-section-footer {
+  border-top: 3px var(--hs-red-maple) solid;
+  margin-top: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
 }
 :root {
   --hs-black: #010101;
