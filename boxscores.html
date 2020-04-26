@@ -11,688 +11,569 @@
     <link rel="stylesheet" href="css/schedules.css">
     <link rel="stylesheet" href="css/boxscores.css">
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
-    <section id="main">
-        <!-- Start of Banner Main -->
-        <section id="main-banner">
-            <div class="container-fluid bg-dark px-0">
-                <div class="row justify-content-center">
-                    <img class="ads-banner img-fluid" src="https://via.placeholder.com/930x80" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Start of Banner Main -->
-
-        <!-- Start of Navigation -->
-        <div class="container-fluid d-none d-lg-inline">
-            <nav class="home-navbar navbar navbar-expand-md navbar-dark bg-dark pt-0 pb-0">
-                <a class="navbar-brand" href="#">HooopsScores</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#home-navbar-items">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="home-navbar-items">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#scores">Scores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="games.html">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="schedules.html">Schedules</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#stats">Stats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#standings">Standings</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- End of Navigation -->
-
-        <!-- Start of Banner Small -->
-        <section id="small-banner">
-            <div class="container-fluid px-0 py-0 bg-dark d-none d-lg-inline">
-                <div class="row d-flex justify-content-center">
-                    <img class="img-fluid" src="img/small-banner.png" width="1440" alt="">
-                </div>
-                <div class="row no-gutters d-flex justify-content-center">
-                    <div class="separator"></div>
-                </div>
-            </div>
-        </section>
-        <!-- Start of Banner Small -->
-        
-        <!-- Start of Boxscores Menu -->
-        <div class="col-12 pt-0 pb-0 pl-0 pr-0">
-            <div class="row no-gutters justify-content-center">
-                <nav class="sched-navbar navbar navbar-expand-md navbar-light bg-light pt-2 pb-2 container-fluid">
-                    <!-- <a class="navbar-brand" href="#">HooopsScores</a> -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sched-navbar-items">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-        
-                    <div class="collapse navbar-collapse" id="sched-navbar-items">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item pt-0 pb-0 pl-0">
-                                <a class="nav-link" href="#">Stats Home</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Players</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Teams</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Scores</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Schedules</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Quick Links</a>
-                            </li>
-                            <li class="nav-item pt-0 pb-0">
-                                <a class="nav-link" href="#">Playoffs</a>
-                            </li>
-                        </ul>
+<body>
+    <section id="navigation"></section>
+    <section id="boxscores-header" class="sticky-top">        
+        <div class="game-header container-fluid pr-0 pl-0 text-light d-flex justify-content-center">
+            <div class="row no-gutters">
+                <div class="my-auto">
+                    <div class="row no-gutters d-flex flex-row-reverse">                                                                                      
+                        <div class="my-auto"><span class="score pl-2">98</span></div>
+                        <div class="w-100 d-inline d-sm-none"></div>
+                        <div class="order-sm-last my-auto">
+                            <span class="team">ALVARK TOKYO</span>
+                            <img src="img/fibaasiachampionscup/alvark.png" alt="">
+                        </div>                           
                     </div>
-                </nav>                  
+                </div>
+                <div class="quarter text-center ml-2 mr-2 my-auto">Final Score</div>
+                <div class="my-auto">
+                    <div class="row no-gutters d-flex flex-row">                                                                                      
+                        <div class="my-auto"><span class="score pr-2">74</span></div>
+                        <div class="w-100 d-inline d-sm-none"></div>
+                        <div class="order-sm-last my-auto">
+                            <img src="img/fibaasiachampionscup/alriyadi.png" alt="">
+                            <span class="team">AL RIYADI</span>                                
+                        </div>                           
+                    </div>
+                </div>                    
             </div>
         </div>
-        <!-- Start of Schedules Menu -->
-        
-        <!-- Start of Banner Small -->
-        <section id="small-banner">
-            <div class="container-fluid">
-                <div class="row justify-content-center container-fluid">
-                    <blockquote class="blockquote text-light">
-                        <p class="mb-0">The HoopsScores has temporarily suspended its season in response to the coronavirus pandemic. The league will use this hiatus to determine next steps for moving forward in regard to this rapidly evolving situation.</p>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-        <!-- Start of Banner Small -->
-    
-        <!-- Start of Header Section -->
-        <section id="boxscores-header" class="sticky-top">        
-            <div class="game-header container-fluid pr-0 pl-0 text-light d-flex justify-content-center">
-                <div class="row no-gutters">
-                    <div class="my-auto">
-                        <div class="row no-gutters d-flex flex-row-reverse">                                                                                      
-                            <div class="my-auto"><span class="score pl-2">98</span></div>
-                            <div class="w-100 d-inline d-sm-none"></div>
-                            <div class="order-sm-last my-auto">
-                                <span class="team">ALVARK TOKYO</span>
-                                <img src="img/fibaasiachampionscup/alvark.png" alt="">
-                            </div>                           
-                        </div>
-                    </div>
-                    <div class="quarter text-center ml-2 mr-2 my-auto">Final Score</div>
-                    <div class="my-auto">
-                        <div class="row no-gutters d-flex flex-row">                                                                                      
-                            <div class="my-auto"><span class="score pr-2">74</span></div>
-                            <div class="w-100 d-inline d-sm-none"></div>
-                            <div class="order-sm-last my-auto">
-                                <img src="img/fibaasiachampionscup/alriyadi.png" alt="">
-                                <span class="team">AL RIYADI</span>                                
-                            </div>                           
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </section>
-        <!-- End of Header Section -->
-
-        <section id="boxscores-body" class="container-fluid d-flex justify-content-center">
-            <div class="row no-gutters container-fluid px-0">
-                <div class="container-fluid px-0">
-                    <h2 class="text-dark py-3">BOXSCORE</h2>
-                </div>  
-            </div>
-        </section>      
-
-        <!-- Start of Boxscores Home Section -->
-        <section id="boxscore-home" class="container-fluid d-flex justify-content-center">
-            <div class="row no-gutters container-fluid px-0">
-                <div class="boxscores-tbl-header container-fluid px-0 d-flex">
-                    <img src="img/fibaasiachampionscup/alvark.png">
-                    <h5 class="text-light my-auto">ALVARK TOKYO</h5>
-                </div>
-                <div class="container-fluid px-0">
-                    <table class="table table-bordered table-striped table-sm table-hover table-responsive-md table-responsive-sm mb-0">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th class="player">PLAYERS</th>
-                                <th>MIN</th>
-                                <th>PTS</th>
-                                <th>FG</th>
-                                <th>2PTS</th>
-                                <th>3PTS</th>
-                                <th>FT</th>
-                                <th>OREB</th>
-                                <th>DREB</th>
-                                <th>REB</th>
-                                <th>AST</th>
-                                <th>PF</th>
-                                <th>TO</th>
-                                <th>STL</th>
-                                <th>BLK</th>
-                                <th>+/-</th>
-                                <th>EFF</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td scope="row">1</th>
-                                <td class="player">Genki Kojima</td>
-                                <td>19:54</td>
-                                <td>13</td>
-                                <td>5/7</td>
-                                <td>2/3</td>
-                                <td>3/4</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>12</td>
-                                <td>17</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">3</th>
-                                <td class="player">Seiya Ando</td>
-                                <td>22:43</td>
-                                <td>11</td>
-                                <td>3/8</td>
-                                <td>2/4</td>
-                                <td>1/4</td>
-                                <td>4/4</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>7</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>15</td>
-                                <td>16</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">7</th>
-                                <td class="player">Takeki Shonaka</td>
-                                <td>15:23</td>
-                                <td>10</td>
-                                <td>3/4</td>
-                                <td>1/2</td>
-                                <td>2/2</td>
-                                <td>2/2</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>15</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">11</th>
-                                <td class="player">Yutaroh Suda</td>
-                                <td>20:54</td>
-                                <td>11</td>
-                                <td>4/4</td>
-                                <td>1/1</td>
-                                <td>3/3</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>17</td>
-                                <td>14</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">12</th>
-                                <td class="player">Milan Macvan</td>
-                                <td>22:34</td>
-                                <td>20</td>
-                                <td>8/15</td>
-                                <td>5/11</td>
-                                <td>3/4</td>
-                                <td>1/1</td>
-                                <td>0</td>
-                                <td>8</td>
-                                <td>8</td>
-                                <td>6</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>20</td>
-                                <td>25</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">13</th>
-                                <td class="player">Shohei Kikuchi</td>
-                                <td>12:45</td>
-                                <td>0</td>
-                                <td>0/2</td>
-                                <td>0/2</td>
-                                <td>0/0</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">15</th>
-                                <td class="player">Joji Takeuchi</td>
-                                <td>22:21</td>
-                                <td>6</td>
-                                <td>3/6</td>
-                                <td>3/4</td>
-                                <td>0/2</td>
-                                <td>0/0</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>5</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">24</th>
-                                <td class="player">Daiki Tanaka</td>
-                                <td>28:21</td>
-                                <td>9</td>
-                                <td>3/9</td>
-                                <td>3/7</td>
-                                <td>0/2</td>
-                                <td>3/4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>16</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">53</th>
-                                <td class="player">Alex Ryan Kirk</td>
-                                <td>35:04</td>
-                                <td>18</td>
-                                <td>8/16</td>
-                                <td>8/16</td>
-                                <td>0/0</td>
-                                <td>2/3</td>
-                                <td>4</td>
-                                <td>8</td>
-                                <td>12</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>25</td>
-                                <td>27</td>
-                            </tr>
-                            <tr>
-                                <td scope="row" colspan="2">Totals</th>
-                                <td>200</td>
-                                <td>98</td>
-                                <td>37/71</td>
-                                <td>25/50</td>
-                                <td>12/21</td>
-                                <td>12/14</td>
-                                <td>11</td>
-                                <td>25</td>
-                                <td>36</td>
-                                <td>31</td>
-                                <td>19</td>
-                                <td>6</td>
-                                <td>6</td>
-                                <td>2</td>
-                                <td>24</td>
-                                <td>128</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="boxscores-tbl-footer container-fluid px-0 d-flex">
-                    <div class="coach">
-                        <div class="row"><span class="coach-lbl">COACH</span></div>
-                        <div class="row"><span class="coach-val">Luka Pavicevic</span></div>                        
-                    </div>
-                    <div class="asst-coach">
-                        <div class="row"><span class="asst-coach-lbl">ASST. COACH</span></div>
-                        <div class="row"><span class="asst-coach-val">Igor Daletic, Kota Mizuno</span></div>
-                    </div>
-                </div>               
-            </div>
-        </section>
-        <!-- End of Boxscores Home Section -->
-
-        <!-- Start of Boxscores Away Section -->
-        <section id="boxscore-away" class="container-fluid d-flex justify-content-center">
-            <div class="row no-gutters container-fluid px-0">
-                <div class="boxscores-tbl-header container-fluid px-0 d-flex">
-                    <img src="img/fibaasiachampionscup/alriyadi.png">
-                    <h5 class="text-light my-auto">AL RIYADI</h5>
-                </div>
-                <div class="container-fluid table-responsive-sm px-0">
-                    <table class="table table-bordered table-striped table-sm mb-0">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th class="player">PLAYERS</th>
-                                <th>MIN</th>
-                                <th>PTS</th>
-                                <th>FG</th>
-                                <th>2PTS</th>
-                                <th>3PTS</th>
-                                <th>FT</th>
-                                <th>OREB</th>
-                                <th>DREB</th>
-                                <th>REB</th>
-                                <th>AST</th>
-                                <th>PF</th>
-                                <th>TO</th>
-                                <th>STL</th>
-                                <th>BLK</th>
-                                <th>+/-</th>
-                                <th>EFF</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td scope="row">0</th>
-                                <td class="player">Gerard Hadidian</td>
-                                <td>19:54</td>
-                                <td>13</td>
-                                <td>5/7</td>
-                                <td>2/3</td>
-                                <td>3/4</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>12</td>
-                                <td>17</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">4</th>
-                                <td class="player">Jean Abd El Nour</td>
-                                <td>22:43</td>
-                                <td>11</td>
-                                <td>3/8</td>
-                                <td>2/4</td>
-                                <td>1/4</td>
-                                <td>4/4</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>7</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>15</td>
-                                <td>16</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">5</th>
-                                <td class="player">Amir Saoud</td>
-                                <td>15:23</td>
-                                <td>10</td>
-                                <td>3/4</td>
-                                <td>1/2</td>
-                                <td>2/2</td>
-                                <td>2/2</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>15</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">8</th>
-                                <td class="player">Hicham El helou</td>
-                                <td>20:54</td>
-                                <td>11</td>
-                                <td>4/4</td>
-                                <td>1/1</td>
-                                <td>3/3</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>17</td>
-                                <td>14</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">11</th>
-                                <td class="player">Miguel Martinez</td>
-                                <td>22:34</td>
-                                <td>20</td>
-                                <td>8/15</td>
-                                <td>5/11</td>
-                                <td>3/4</td>
-                                <td>1/1</td>
-                                <td>0</td>
-                                <td>8</td>
-                                <td>8</td>
-                                <td>6</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>20</td>
-                                <td>25</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">14</th>
-                                <td class="player">Mohamad Bilal Tabbara</td>
-                                <td>12:45</td>
-                                <td>0</td>
-                                <td>0/2</td>
-                                <td>0/2</td>
-                                <td>0/0</td>
-                                <td>0/0</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">16</th>
-                                <td class="player">Wael Arakji</td>
-                                <td>22:21</td>
-                                <td>6</td>
-                                <td>3/6</td>
-                                <td>3/4</td>
-                                <td>0/2</td>
-                                <td>0/0</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>5</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">25</th>
-                                <td class="player">Ekene Ibekwe</td>
-                                <td>28:21</td>
-                                <td>9</td>
-                                <td>3/9</td>
-                                <td>3/7</td>
-                                <td>0/2</td>
-                                <td>3/4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>16</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">32</th>
-                                <td class="player">Willie D. Warren</td>
-                                <td>35:04</td>
-                                <td>18</td>
-                                <td>8/16</td>
-                                <td>8/16</td>
-                                <td>0/0</td>
-                                <td>2/3</td>
-                                <td>4</td>
-                                <td>8</td>
-                                <td>12</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>25</td>
-                                <td>27</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">33</th>
-                                <td class="player">Bassel Bawji</td>
-                                <td>35:04</td>
-                                <td>18</td>
-                                <td>8/16</td>
-                                <td>8/16</td>
-                                <td>0/0</td>
-                                <td>2/3</td>
-                                <td>4</td>
-                                <td>8</td>
-                                <td>12</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>25</td>
-                                <td>27</td>
-                            </tr>
-                            <tr>
-                                <td scope="row" colspan="2">Totals</th>
-                                <td>200</td>
-                                <td>98</td>
-                                <td>37/71</td>
-                                <td>25/50</td>
-                                <td>12/21</td>
-                                <td>12/14</td>
-                                <td>11</td>
-                                <td>25</td>
-                                <td>36</td>
-                                <td>31</td>
-                                <td>19</td>
-                                <td>6</td>
-                                <td>6</td>
-                                <td>2</td>
-                                <td>24</td>
-                                <td>128</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="boxscores-tbl-footer container-fluid px-0 d-flex">
-                    <div class="coach">
-                        <div class="row"><span class="coach-lbl">COACH</span></div>
-                        <div class="row"><span class="coach-val">Ahmhad El Farran</span></div>                        
-                    </div>
-                    <div class="asst-coach">
-                        <div class="row"><span class="asst-coach-lbl">ASST. COACH</span></div>
-                        <div class="row"><span class="asst-coach-val">Michael Matsentides</span></div>
-                    </div>
-                </div>               
-            </div>
-        </section>
-        <!-- End of Boxscores Away Section -->
-        <!-- <section id="boxscores-body" class="container-fluid d-flex justify-content-center">
-            <div class="row no-gutters container-fluid px-0">
-                <div class="container-fluid px-0">
-                    <h2 class="text-dark py-3">BOXSCORE</h2>
-                </div>  
-            </div>
-        </section>  -->
-        
-        <!-- Start Footer Setion -->
-        <section id="footer" class="container-fluid d-flex justify-content-center px-0">
-            <div class="row no-gutters container-fluid px-0">
-                <div id="footer-template" class="container-fluid d-flex justify-content-center px-0"></div> 
-            </div>
-        </section>
-        <!-- End Footer Section -->
-
     </section>
-    <!-- End of main section -->
+    <!-- End of Header Section -->
+    <div class="hs-container">
+        <section id="page-title">
+            <div class="hs-section bg-light mb-0">
+                <h2 class="hs-page-title">BOXSCORE</h2>
+            </div>
+        </section>
+    </div>
+    <!-- Start of Boxscores Home Section -->
+    <section id="boxscore-home" class="container-fluid d-flex justify-content-center">
+        <div class="row no-gutters container-fluid px-0">
+            <div class="boxscores-tbl-header container-fluid px-0 d-flex">
+                <img src="img/fibaasiachampionscup/alvark.png">
+                <h5 class="text-light my-auto">ALVARK TOKYO</h5>
+            </div>
+            <div class="container-fluid px-0">
+                <table class="table table-bordered table-striped table-sm table-hover table-responsive-md table-responsive-sm mb-0">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th class="player">PLAYERS</th>
+                            <th>MIN</th>
+                            <th>PTS</th>
+                            <th>FG</th>
+                            <th>2PTS</th>
+                            <th>3PTS</th>
+                            <th>FT</th>
+                            <th>OREB</th>
+                            <th>DREB</th>
+                            <th>REB</th>
+                            <th>AST</th>
+                            <th>PF</th>
+                            <th>TO</th>
+                            <th>STL</th>
+                            <th>BLK</th>
+                            <th>+/-</th>
+                            <th>EFF</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1</th>
+                            <td class="player">Genki Kojima</td>
+                            <td>19:54</td>
+                            <td>13</td>
+                            <td>5/7</td>
+                            <td>2/3</td>
+                            <td>3/4</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>12</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">3</th>
+                            <td class="player">Seiya Ando</td>
+                            <td>22:43</td>
+                            <td>11</td>
+                            <td>3/8</td>
+                            <td>2/4</td>
+                            <td>1/4</td>
+                            <td>4/4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">7</th>
+                            <td class="player">Takeki Shonaka</td>
+                            <td>15:23</td>
+                            <td>10</td>
+                            <td>3/4</td>
+                            <td>1/2</td>
+                            <td>2/2</td>
+                            <td>2/2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>15</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">11</th>
+                            <td class="player">Yutaroh Suda</td>
+                            <td>20:54</td>
+                            <td>11</td>
+                            <td>4/4</td>
+                            <td>1/1</td>
+                            <td>3/3</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>17</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">12</th>
+                            <td class="player">Milan Macvan</td>
+                            <td>22:34</td>
+                            <td>20</td>
+                            <td>8/15</td>
+                            <td>5/11</td>
+                            <td>3/4</td>
+                            <td>1/1</td>
+                            <td>0</td>
+                            <td>8</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>20</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">13</th>
+                            <td class="player">Shohei Kikuchi</td>
+                            <td>12:45</td>
+                            <td>0</td>
+                            <td>0/2</td>
+                            <td>0/2</td>
+                            <td>0/0</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">15</th>
+                            <td class="player">Joji Takeuchi</td>
+                            <td>22:21</td>
+                            <td>6</td>
+                            <td>3/6</td>
+                            <td>3/4</td>
+                            <td>0/2</td>
+                            <td>0/0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">24</th>
+                            <td class="player">Daiki Tanaka</td>
+                            <td>28:21</td>
+                            <td>9</td>
+                            <td>3/9</td>
+                            <td>3/7</td>
+                            <td>0/2</td>
+                            <td>3/4</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>16</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">53</th>
+                            <td class="player">Alex Ryan Kirk</td>
+                            <td>35:04</td>
+                            <td>18</td>
+                            <td>8/16</td>
+                            <td>8/16</td>
+                            <td>0/0</td>
+                            <td>2/3</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>25</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" colspan="2">Totals</th>
+                            <td>200</td>
+                            <td>98</td>
+                            <td>37/71</td>
+                            <td>25/50</td>
+                            <td>12/21</td>
+                            <td>12/14</td>
+                            <td>11</td>
+                            <td>25</td>
+                            <td>36</td>
+                            <td>31</td>
+                            <td>19</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>24</td>
+                            <td>128</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="boxscores-tbl-footer container-fluid px-0 d-flex">
+                <div class="coach">
+                    <div class="row"><span class="coach-lbl">COACH</span></div>
+                    <div class="row"><span class="coach-val">Luka Pavicevic</span></div>                        
+                </div>
+                <div class="asst-coach">
+                    <div class="row"><span class="asst-coach-lbl">ASST. COACH</span></div>
+                    <div class="row"><span class="asst-coach-val">Igor Daletic, Kota Mizuno</span></div>
+                </div>
+            </div>               
+        </div>
+    </section>
+    <!-- End of Boxscores Home Section -->
 
+    <!-- Start of Boxscores Away Section -->
+    <section id="boxscore-away" class="container-fluid d-flex justify-content-center">
+        <div class="row no-gutters container-fluid px-0">
+            <div class="boxscores-tbl-header container-fluid px-0 d-flex">
+                <img src="img/fibaasiachampionscup/alriyadi.png">
+                <h5 class="text-light my-auto">AL RIYADI</h5>
+            </div>
+            <div class="container-fluid table-responsive-sm px-0">
+                <table class="table table-bordered table-striped table-sm mb-0">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th class="player">PLAYERS</th>
+                            <th>MIN</th>
+                            <th>PTS</th>
+                            <th>FG</th>
+                            <th>2PTS</th>
+                            <th>3PTS</th>
+                            <th>FT</th>
+                            <th>OREB</th>
+                            <th>DREB</th>
+                            <th>REB</th>
+                            <th>AST</th>
+                            <th>PF</th>
+                            <th>TO</th>
+                            <th>STL</th>
+                            <th>BLK</th>
+                            <th>+/-</th>
+                            <th>EFF</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">0</th>
+                            <td class="player">Gerard Hadidian</td>
+                            <td>19:54</td>
+                            <td>13</td>
+                            <td>5/7</td>
+                            <td>2/3</td>
+                            <td>3/4</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>12</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">4</th>
+                            <td class="player">Jean Abd El Nour</td>
+                            <td>22:43</td>
+                            <td>11</td>
+                            <td>3/8</td>
+                            <td>2/4</td>
+                            <td>1/4</td>
+                            <td>4/4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">5</th>
+                            <td class="player">Amir Saoud</td>
+                            <td>15:23</td>
+                            <td>10</td>
+                            <td>3/4</td>
+                            <td>1/2</td>
+                            <td>2/2</td>
+                            <td>2/2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>15</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">8</th>
+                            <td class="player">Hicham El helou</td>
+                            <td>20:54</td>
+                            <td>11</td>
+                            <td>4/4</td>
+                            <td>1/1</td>
+                            <td>3/3</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>17</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">11</th>
+                            <td class="player">Miguel Martinez</td>
+                            <td>22:34</td>
+                            <td>20</td>
+                            <td>8/15</td>
+                            <td>5/11</td>
+                            <td>3/4</td>
+                            <td>1/1</td>
+                            <td>0</td>
+                            <td>8</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>20</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">14</th>
+                            <td class="player">Mohamad Bilal Tabbara</td>
+                            <td>12:45</td>
+                            <td>0</td>
+                            <td>0/2</td>
+                            <td>0/2</td>
+                            <td>0/0</td>
+                            <td>0/0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">16</th>
+                            <td class="player">Wael Arakji</td>
+                            <td>22:21</td>
+                            <td>6</td>
+                            <td>3/6</td>
+                            <td>3/4</td>
+                            <td>0/2</td>
+                            <td>0/0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">25</th>
+                            <td class="player">Ekene Ibekwe</td>
+                            <td>28:21</td>
+                            <td>9</td>
+                            <td>3/9</td>
+                            <td>3/7</td>
+                            <td>0/2</td>
+                            <td>3/4</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>16</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">32</th>
+                            <td class="player">Willie D. Warren</td>
+                            <td>35:04</td>
+                            <td>18</td>
+                            <td>8/16</td>
+                            <td>8/16</td>
+                            <td>0/0</td>
+                            <td>2/3</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>25</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">33</th>
+                            <td class="player">Bassel Bawji</td>
+                            <td>35:04</td>
+                            <td>18</td>
+                            <td>8/16</td>
+                            <td>8/16</td>
+                            <td>0/0</td>
+                            <td>2/3</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>25</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" colspan="2">Totals</th>
+                            <td>200</td>
+                            <td>98</td>
+                            <td>37/71</td>
+                            <td>25/50</td>
+                            <td>12/21</td>
+                            <td>12/14</td>
+                            <td>11</td>
+                            <td>25</td>
+                            <td>36</td>
+                            <td>31</td>
+                            <td>19</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>24</td>
+                            <td>128</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="boxscores-tbl-footer container-fluid px-0 d-flex">
+                <div class="coach">
+                    <div class="row"><span class="coach-lbl">COACH</span></div>
+                    <div class="row"><span class="coach-val">Ahmhad El Farran</span></div>                        
+                </div>
+                <div class="asst-coach">
+                    <div class="row"><span class="asst-coach-lbl">ASST. COACH</span></div>
+                    <div class="row"><span class="asst-coach-val">Michael Matsentides</span></div>
+                </div>
+            </div>               
+        </div>
+    </section>
+    <!-- End of Boxscores Away Section -->
+    <!-- <section id="boxscores-body" class="container-fluid d-flex justify-content-center">
+        <div class="row no-gutters container-fluid px-0">
+            <div class="container-fluid px-0">
+                <h2 class="text-dark py-3">BOXSCORE</h2>
+            </div>  
+        </div>
+    </section>  -->
+    
+    <!-- Start Footer Setion -->
+    <section id="footer"></section>
+    <!-- End Footer Section -->
     <!--- Script Source Files -->
     <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
@@ -700,7 +581,8 @@
     <script src="js/jquery.includeHTML.js"></script>
     <script>
         $(document).ready(function () {
-            $("#footer-template").loadHTML("footer.html");
+            $("#navigation").loadHTML("navigation.html");
+            $("#footer").loadHTML("footer.html");
         });
     </script>
     <!--- End of Script Source Files -->    

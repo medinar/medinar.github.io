@@ -174,7 +174,7 @@ a:hover {
 }
 .hs-section {
   /* border: red dashed 1px; */
-  margin-bottom: 24px;        
+  margin-bottom: 24px;
 }
 /* .hs-section div {
   border: green dashed 1px;      
@@ -182,6 +182,8 @@ a:hover {
 .hs-page-title {
   border-bottom: #010101 solid 3px;
   padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .hs-section-title {
   /* border-bottom: #777777 solid 2px; */
