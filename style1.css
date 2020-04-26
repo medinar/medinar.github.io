@@ -20,6 +20,9 @@ body {
 /* Table */
 thead {
   font-size: 12px;
+  background-color: var(--hs-black);
+  color: white;
+  border: 0;
 }
 .table> tbody > tr > td {
   font-size: 12px;
@@ -43,6 +46,24 @@ th.player {
 tfoot>tr>td {
   font-size: 12px;
   color: var(--hs-black);
+}
+.hs-table-header {
+  background-color: var(--hs-dark-gray);
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  height: 60px;
+}
+.hs-table-header-title {
+  color: white;
+  padding-left: 16px;
+}
+.hs-table-container {
+  margin-top: 0px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 24px;
 }
 /* Table */
 
@@ -188,5 +209,6 @@ a:hover {
   --hs-black: #010101;
   --hs-red: #BF0B29;
   --hs-red-maple: #D10000;
+  --hs-dark-gray: #252525;
 }
 /* ===== STYLE GUIDE ===== */
