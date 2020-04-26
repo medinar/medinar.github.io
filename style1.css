@@ -124,7 +124,7 @@ a:hover {
   margin-top: 24px;
 }
 .hs-section {
-  /* border: red dashed 1px; */
+  border: red dashed 1px;
   margin-bottom: 24px;        
 }
 /* .hs-section div {
