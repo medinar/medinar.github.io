@@ -27,28 +27,12 @@
 #boxscore-away .row {
     max-width: 980px;
 }
-#boxscore-home .player,
-#boxscore-away .player {
-    text-align: left!important;
-}
-#boxscore-home td,
-#boxscore-away td,
-#boxscore-home thead,
-#boxscore-away thead {
-    text-align: center;
-}
 #boxscore-home .boxscores-tbl-header {
     background-color: #0765c6;
 }
 #boxscore-home .boxscores-tbl-header img {
     height: 60px;
     margin: 15px 10px;
-}
-thead {
-    font-size: 12px;
-}
-.table> tbody > tr > td {
-    font-size: 12px;
 }
 #boxscore-away .boxscores-tbl-header {
     background-color: #048b27;

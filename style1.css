@@ -16,6 +16,36 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #505962;
 }
+
+/* Table */
+thead {
+  font-size: 12px;
+}
+.table> tbody > tr > td {
+  font-size: 12px;
+}
+td,
+thead {
+  text-align: center;
+}
+td a {
+  font-size: 12px;
+}
+td,
+th {
+  padding: 9px 6px!important;
+}
+td.player,
+th.player {
+  text-align: left;
+  white-space: nowrap;
+}
+tfoot>tr>td {
+  font-size: 12px;
+  color: var(--hs-black);
+}
+/* Table */
+
 h1,
 h2,
 h3,
@@ -35,11 +65,11 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #010101;
-  text-decoration: none;
+  color: #010101;  
   transition: all 0.3s ease 0s;
 }
 a:hover {
+  text-decoration: none;
   color: #777777;
 }
 .hs-text-light,
@@ -124,7 +154,7 @@ a:hover {
   margin-top: 24px;
 }
 .hs-section {
-  border: red dashed 1px;
+  /* border: red dashed 1px; */
   margin-bottom: 24px;        
 }
 /* .hs-section div {
