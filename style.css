@@ -185,14 +185,17 @@ a:hover {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.hs-section-title {
-  /* border-bottom: #777777 solid 2px; */
+.hs-section-header {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
   /* background-color: var(--light); */
-  background-color: var(--hs-red-maple);
+  background-color: var(--hs-crimson);
   color: white;
+}
+.hs-section-title {
+  color: white;
+  margin: 0px;
 }
 .hs-label {
   font-size: 14.4px;
@@ -200,13 +203,13 @@ a:hover {
   padding-left: 0;
 }
 .nav-tabs .nav-link.active {
-  background-color: var(--hs-red-maple);
-  border-bottom: var(--hs-red-maple);
+  background-color: var(--hs-crimson);
+  border-bottom: var(--hs-crimson);
   color: white;
-  border: 1px solid var(--hs-red-maple);
+  border: 1px solid var(--hs-crimson);
 }
 .hs-section-footer {
-  border-top: 3px var(--hs-red-maple) solid;
+  border-top: 3px var(--hs-crimson) solid;
   margin-top: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -215,10 +218,27 @@ a:hover {
 .hs-team-logo {
   height: 30px;
 }
+/* Player Card */
+.hs-player-card {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}    
+.hs-player-photo {
+  padding: 12px;
+}    
+.hs-player-info {
+  border-left: 2px solid var(--hs-crimson);
+  padding: 12px;
+}
+/* Player Card */
 :root {
   --hs-black: #010101;
   --hs-red: #BF0B29;
   --hs-red-maple: #D10000;
+  --hs-apple: #A91B0D;
+  --hs-crimson: #B90E0A;
   --hs-dark-gray: #252525;
 }
 /* ===== STYLE GUIDE ===== */
