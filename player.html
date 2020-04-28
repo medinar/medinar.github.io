@@ -26,12 +26,12 @@
                     </div>
                     <div class="hs-section-body container">
                         <div class="row">
-                            <div class="player-profile col-md-6 col-sm-12 col-xs-12 d-flex p-3">
-                                <div class="player-photo">
+                            <div class="player-profile col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex py-3 px-5">
+                                <div class="player-photo pr-3">
                                     <img src="img/fibaasiachampionscup/players/gerard-hadidian.jpg" class="hs-player-photo-xl">
                                 </div>
                                 <div class="player-info pl-3">
-                                    <h4>Gerard HADIDIAN</h4>
+                                    <h2>Gerard HADIDIAN</h2>
                                     <h6>POWER FORWARD</h6>
                                     <div class="d-flex flex-column">
                                         <span class="small">Team: Al Riyadi</span>
@@ -41,26 +41,26 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="stat-chart col-md-6 col-sm-12 col-xs-12 p-3">
-                                <div id="mini-chart" class="">
-                                    <table class="bg-dark" width="100%">
+                            <div class="stat-chart col-lg-6 col-md-12 col-sm-12 col-xs-12 py-3 px-5">
+                                <div id="mini-chart">
+                                    <table width="100%">
                                         <thead class="bg-transparent">
                                             <tr>
-                                                <td><i class="far fa-chart-bar"></i></td>
-                                                <td>POINTS</td>
-                                                <td>REBOUNDS</td>
-                                                <td>ASSISTS</td>
+                                                <th class="text-left pl-4"><i class="far fa-chart-bar fa-2x"></i></th>
+                                                <th class="">POINTS</th>
+                                                <th>REBOUNDS</th>
+                                                <th>ASSISTS</th>
                                             </tr>
                                         </thead>
                                         <tbody class="text-white">
                                             <tr>
-                                                <td>This Season</td>
+                                                <th class="text-left">This Season</th>
                                                 <td>7.8</td>
                                                 <td>5.8</td>
                                                 <td>1.2</td>
                                             </tr>
-                                            <tr>
-                                                <td>Ave. Per Season</td>
+                                            <tr class="light">
+                                                <th class="text-left">Ave. Per Season</th>
                                                 <td>7.8</td>
                                                 <td>5.8</td>
                                                 <td>1.2</td>
@@ -340,3 +340,18 @@
     <!--- End of Script Source Files --> 
 </body>
 </html>
+<style>
+    #mini-chart {
+        padding: 10px 12px;
+        background-color: var(--hs-crimson);
+    }
+    #mini-chart table td {
+        font-family: 'Lato-Bold', sans-serif;
+        font-size: x-large;
+    }
+    tr.light {
+        border-collapse: collapse;
+        border-top: white 1px solid;
+    }
+
+</style>
