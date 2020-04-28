@@ -173,8 +173,27 @@ a:hover {
   margin-top: 24px;
 }
 .hs-section {
-  /* border: red dashed 1px; */
-  margin-bottom: 24px;
+  border: red dashed 1px;
+  background-color: var(--light);
+}
+.hs-section-header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  background-color: var(--hs-crimson);
+  color: white;
+}
+.hs-section-title {
+  color: white;
+  margin: 0px;
+}
+.hs-section-footer {
+  border-top: 3px var(--hs-crimson) solid;
+  margin-top: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  background-color: var(--light);
 }
 /* .hs-section div {
   border: green dashed 1px;      
@@ -184,18 +203,6 @@ a:hover {
   padding-left: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
-}
-.hs-section-header {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-  /* background-color: var(--light); */
-  background-color: var(--hs-crimson);
-  color: white;
-}
-.hs-section-title {
-  color: white;
-  margin: 0px;
 }
 .hs-label {
   font-size: 14.4px;
@@ -207,13 +214,6 @@ a:hover {
   border-bottom: var(--hs-crimson);
   color: white;
   border: 1px solid var(--hs-crimson);
-}
-.hs-section-footer {
-  border-top: 3px var(--hs-crimson) solid;
-  margin-top: 12px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
 }
 .hs-team-logo {
   height: 30px;
@@ -231,6 +231,37 @@ a:hover {
 .hs-player-info {
   border-left: 2px solid var(--hs-crimson);
   padding: 12px;
+}
+.hs-team-logo-xs {
+  height: 30px;
+}
+.hs-team-logo-sm {
+  height: 60px;
+}
+.hs-team-logo-md {
+  height: 90px;
+}
+.hs-team-logo-lg {
+  height: 120px;
+}
+.hs-team-logo-xl {
+  height: 150px;
+}
+.hs-player-photo-xs {
+  height: 30px;
+}
+.hs-player-photo-sm {
+  height: 60px;
+}
+.hs-player-photo-md {
+  height: 90px;
+}
+.hs-player-photo-lg {
+  height: 120px;
+}
+.hs-player-photo-xl {
+  width: 106px;
+  height: 150px;  
 }
 /* Player Card */
 :root {
