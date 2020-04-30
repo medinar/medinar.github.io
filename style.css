@@ -179,6 +179,21 @@ a:hover {
   padding-bottom: 24px;
   box-shadow: var(--box-shadow);
 }
+.hs-nav-container {
+  /* border: 1px dashed green; */
+  width: 100%;
+  max-width: 980px;
+  /* margin: 30px 16px; */
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+.hs-nav-wrapper {
+  border: 1px dashed black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .hs-section {
   /* border: red dashed 1px; */
   /* background-color: var(--light); */
