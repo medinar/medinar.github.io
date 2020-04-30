@@ -197,12 +197,10 @@ a:hover {
 .hs-section-header {
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 16px;
-  /* background-color: var(--hs-crimson); */
-  color: white;
+  padding-left: 16px;  
 }
 .hs-section-title {
-  color: white;
+  color: var(--hs-dark-gray);
   margin: 0px;
 }
 .hs-section-footer {

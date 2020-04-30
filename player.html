@@ -14,16 +14,8 @@
     <section id="navigation"></section>
     <section id="content">
         <div class="hs-container">
-            <section id="page-header">
-                <div class="hs-section">
-                    <h2 class="hs-page-title">Player</h2>
-                </div>
-            </section>
             <section id="player-profile">
                 <div class="hs-section">
-                    <div class="hs-section-header">
-                        <h5 class="hs-section-title">Profile</h5>
-                    </div>
                     <div class="hs-section-body container">
                         <div class="row">
                             <div class="player-profile col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex py-3 px-5">
@@ -52,7 +44,7 @@
                                                 <th>ASSISTS</th>
                                             </tr>
                                         </thead>
-                                        <tbody class="text-white">
+                                        <tbody>
                                             <tr>
                                                 <th class="text-left">This Season</th>
                                                 <td>7.8</td>
@@ -70,9 +62,6 @@
                                 </div>                                    
                             </div>    
                         </div>
-                    </div>
-                    <div class="hs-section-footer">
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>                        
                     </div>
                 </div>
             </section>
@@ -320,6 +309,8 @@
                         </tfoot>
                     </table>            
                 </div>
+                <div class="hs-section-footer">
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>                        
                 </div>
             </section>
         </div>
@@ -343,15 +334,21 @@
 <style>
     #mini-chart {
         padding: 10px 12px;
-        background-color: var(--hs-crimson);
+        border-radius: 5px;
+        border: 1px lightgray solid;
+        box-shadow: var(--box-shadow);
     }
     #mini-chart table td {
         font-family: 'Lato-Bold', sans-serif;
         font-size: x-large;
+        color: var(--hs-dark-gray);
+    }
+    #mini-chart table th {
+        color: var(--hs-dark-gray);
     }
     tr.light {
         border-collapse: collapse;
-        border-top: white 1px solid;
+        border-top: var(--hs-dark-gray) 1px solid;
     }
 
 </style>
