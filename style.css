@@ -172,7 +172,7 @@ a:hover {
   margin-top: 24px;
 }
 .hs-container {
-  /* border: 1px dashed black; */
+  border: 1px solid darkgray;
   height: 100%;
   max-width: 980px;
   margin: auto;
