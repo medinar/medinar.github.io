@@ -5,6 +5,7 @@ body {
   color: #505962;
   width: 100%;
   height: 100%;
+  background-color: var(--hs-red);
 }
 .hs-no-sidebar {
   max-width: 980px;
@@ -171,9 +172,14 @@ a:hover {
   max-width: 980px;
   margin: auto;
   margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .hs-section {
-  border: red dashed 1px;
+  /* border: red dashed 1px; */
   background-color: var(--light);
 }
 .hs-section-header {
@@ -266,7 +272,8 @@ a:hover {
 /* Player Card */
 :root {
   --hs-black: #010101;
-  --hs-red: #BF0B29;
+  /* --hs-red: #BF0B29; */
+  --hs-red: #a70729;
   --hs-red-maple: #D10000;
   --hs-apple: #A91B0D;
   --hs-crimson: #B90E0A;
