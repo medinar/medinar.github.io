@@ -305,6 +305,12 @@ a:hover {
 .hs-card:hover {
   box-shadow: var(--box-shadow);
 }
+.hs-card-header {
+  border-bottom: 2px solid var(--hs-theme-color);
+}
+.hs-card-footer {
+  border-top: 2px solid var(--hs-theme-color);
+}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
