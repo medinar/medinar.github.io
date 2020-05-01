@@ -5,7 +5,7 @@ body {
   color: #505962;
   width: 100%;
   height: 100%;
-  background-color: var(--hs-red);
+  background-color: var(--hs-theme-color);
 }
 .hs-no-sidebar {
   max-width: 980px;
@@ -215,7 +215,7 @@ a:hover {
   margin: 0px;
 }
 .hs-section-footer {
-  border-top: 3px var(--hs-crimson) solid;
+  border-top: 3px var(--hs-theme-color) solid;
   margin-top: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -237,10 +237,10 @@ a:hover {
   padding-left: 0;
 }
 .nav-tabs .nav-link.active {
-  background-color: var(--hs-crimson);
-  border-bottom: var(--hs-crimson);
+  background-color: var(--hs-theme-color);
+  border-bottom: var(--hs-theme-color);
   color: white;
-  border: 1px solid var(--hs-crimson);
+  border: 1px solid var(--hs-theme-color);
 }
 .hs-team-logo {
   height: 30px;
@@ -256,7 +256,7 @@ a:hover {
   padding: 12px;
 }    
 .hs-player-info {
-  border-left: 2px solid var(--hs-crimson);
+  border-left: 2px solid var(--hs-theme-color);
   padding: 12px;
 }
 .hs-team-logo-xs {
@@ -292,6 +292,8 @@ a:hover {
 }
 /* Player Card */
 :root {
+  --hs-theme-color: var(--hs-violet);
+  --hs-violet: #563d7c;
   --hs-black: #010101;
   /* --hs-red: #BF0B29; */
   --hs-red: #a70729;
@@ -302,5 +304,6 @@ a:hover {
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   --hs-ball: #CF5300;
   --hs-transparent: rgba(0, 0, 0, 0.6);
+  --hs-theme-red: var(--hs-red);
 }
 /* ===== STYLE GUIDE ===== */
