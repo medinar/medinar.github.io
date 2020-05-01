@@ -12,12 +12,50 @@
 </head>
 <body>
     <section id="navigation"></section>
-    <div class="hs-container">
-        <section id="page-title">
-            <div class="mb-0">
-                <h4 class="hs-page-title">STATS</h4>
-            </div>
-        </section>
+    <div class="hs-container-wrapper">
+        <div class="hs-container">
+            <section id="page-title">
+                <div class="mb-0">
+                    <h4 class="hs-page-title">STATS</h4>
+                </div>
+            </section>
+            <section id="content">
+                <a href="boxscores.html">
+                    <div class="hs-card">
+                        <div class="hs-card-header d-flex flex-row">
+                            <h6>Game 1</h6>
+                        </div>
+                        <div class="hs-card-body">
+                            <div class="row no-gutters py-2">
+                                <div class="col-10 d-flex">
+                                    <img class="hs-team-logo" src="/img/nba_logo/DEN.svg">
+                                    <div class="my-auto">
+                                        <h5 class="mb-0">DEN</h5>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-right my-auto">
+                                    <h5 class="mb-0">97</h5>
+                                </div>
+                            </div>
+                            <div class="row no-gutters py-2 winner">
+                                <div class="col-10 d-flex">
+                                    <img class="hs-team-logo" src="/img/nba_logo/DAL.svg">
+                                    <div class="my-auto">
+                                        <h5 class="mb-0">DAL</h5>
+                                    </div>                                
+                                </div>
+                                <div class="col-2 text-right my-auto">
+                                    <h5 class="mb-0">113</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hs-card-footer text-center pt-3">
+                            <div class="small text-dark">Murray: 25pts | Marjanovich: 31pts, 17reb</div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
     </div>
     <section id="footer"></section>
 
@@ -35,3 +73,11 @@
     <!--- End of Script Source Files --> 
 </body>
 </html>
+<style>
+.hs-card-header {
+    border-bottom: 1px solid lightgray;
+}
+.hs-card-footer {
+    border-top: 1px solid lightgray;
+}
+</style>

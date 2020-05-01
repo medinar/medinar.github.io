@@ -1,5 +1,6 @@
 .game-header {
-    background-color: rgb(158, 19, 22, .90);
+    background-color: var(--hs-transparent);
+    /* background-color: rgb(158, 19, 22, .90); */
     /* background-color: rgb(158, 19, 22); */
 
 }

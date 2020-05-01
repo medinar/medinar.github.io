@@ -291,6 +291,15 @@ a:hover {
   height: 150px;  
 }
 /* Player Card */
+.hs-card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
 :root {
   --hs-theme-color: var(--hs-violet);
   --hs-violet: #563d7c;
@@ -305,5 +314,6 @@ a:hover {
   --hs-ball: #CF5300;
   --hs-transparent: rgba(0, 0, 0, 0.6);
   --hs-theme-red: var(--hs-red);
+  --hs-px: 16px;
 }
 /* ===== STYLE GUIDE ===== */
