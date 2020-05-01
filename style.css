@@ -292,14 +292,27 @@ a:hover {
 }
 /* Player Card */
 .hs-card {
+  background-color: white;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding-top: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
   padding-left: 16px;
+  transition: all 0.3s ease 0s;
 }
-
+.hs-card:hover {
+  box-shadow: var(--box-shadow);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.carousel {
+  background-color: var(--hs-white-transparent);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 :root {
   --hs-theme-color: var(--hs-violet);
   --hs-violet: #563d7c;
@@ -313,6 +326,7 @@ a:hover {
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   --hs-ball: #CF5300;
   --hs-transparent: rgba(0, 0, 0, 0.6);
+  --hs-white-transparent: rgba(255, 255, 255, 0.1);
   --hs-theme-red: var(--hs-red);
   --hs-px: 16px;
 }
