@@ -311,6 +311,10 @@ a:hover {
 .hs-card-footer {
   border-top: 2px solid var(--hs-theme-color);
 }
+.hs-card-footer span {
+  font-size: 12px;
+  color: var(--hs-black);
+}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
@@ -319,6 +323,15 @@ a:hover {
   background-color: var(--hs-white-transparent);
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.card-team-score {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: var(--hs-light-gray);
+}
+.winner span{
+  color: var(--hs-black)!important;
+  font-size: 20px;
 }
 :root {
   --hs-theme-color: var(--hs-violet);
@@ -336,5 +349,6 @@ a:hover {
   --hs-white-transparent: rgba(255, 255, 255, 0.1);
   --hs-theme-red: var(--hs-red);
   --hs-px: 16px;
+  --hs-light-gray: #616161;
 }
 /* ===== STYLE GUIDE ===== */
