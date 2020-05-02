@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #505962;
+  /* color: #505962; */
+  color: #444444;
   width: 100%;
   height: 100%;
   background-color: var(--hs-theme-color);
