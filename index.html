@@ -28,10 +28,10 @@
         <div class="hs-full-container">
             <div class="games-slick-slider-wrapper">
     
-                <div class="prev">
+                <div class="prev" id="prev">
                     <span><i class="fas fa-chevron-left"></i></span>
                 </div>
-                <div class="next">
+                <div class="next" id="next">
                     <span><i class="fas fa-chevron-right"></i></span>
                 </div>
     
@@ -415,24 +415,31 @@
         z-index: 9999;
         height: 100%;
         width: 70px;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%);
+        background-color: transparent;
+        /* background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%); */
     }   
-    .games-slick-slider-wrapper .prev {
+    .games-slick-slider-wrapper .prev {        
         position: absolute;
         top: 0px;
         left: 0px;
         font-size: 2em;
         color: white;
         cursor: pointer;
-        
         display: flex;
         justify-content: center;
         z-index: 9999;
         height: 100%;
         width: 70px;
+        background-color: transparent;
+    } 
+    .games-slick-slider-wrapper .prev:hover {        
         background: rgb(0,0,0);
         background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+    } 
+    .games-slick-slider-wrapper .next:hover {        
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%);
     } 
     .prev span,
     .next span {
