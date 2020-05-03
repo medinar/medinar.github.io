@@ -308,7 +308,7 @@ a:hover {
   box-shadow: var(--box-shadow);
 }
 .hs-card-header {
-  border-bottom: 1px solid var(--hs-theme-color);
+  border-bottom: 1px solid lightgray;
   padding: 4px 8px 6px;
 }
 .hs-card-header .label {
