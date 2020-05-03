@@ -28,8 +28,12 @@
         <div class="hs-full-container">
             <div class="games-slick-slider-wrapper">
     
-                <div class="prev"><i class="fas fa-chevron-left"></i></div>            
-                <div class="next"><i class="fas fa-chevron-right"></i></div>
+                <div class="prev">
+                    <span><i class="fas fa-chevron-left"></i></span>
+                </div>
+                <div class="next">
+                    <span><i class="fas fa-chevron-right"></i></span>
+                </div>
     
                 <!-- <a class="prev">PREV</a>
                 <a class="next">NEXT</a> -->
@@ -327,7 +331,7 @@
         border: 1px greenyellow dashed;
     }    */
     .games-slick-slider-wrapper .games-slick-slider {
-        width: 90%;
+        /* width: 90%; */
         /* height: 400px; */
         margin: 0px auto;
         overflow: hidden;
@@ -335,20 +339,41 @@
     }
     .games-slick-slider-wrapper .next {
         position: absolute;
-        top: 50%;
-        right: 30px;
+        top: 0px;
+        right: 0px;
         font-size: 2em;
         color: white;
         cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+        z-index: 9999;
+        height: 100%;
+        width: 70px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%);
     }   
     .games-slick-slider-wrapper .prev {
         position: absolute;
-        top: 50%;
-        left: 30px;
+        top: 0px;
+        left: 0px;
         font-size: 2em;
         color: white;
         cursor: pointer;
-    }   
+        
+        display: flex;
+        justify-content: center;
+        z-index: 9999;
+        height: 100%;
+        width: 70px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+    } 
+    .prev span,
+    .next span {
+        margin-top: auto;
+        margin-bottom: auto;
+    }  
     .games-slick-slider-wrapper .games-slick-slider .game-slick-item {
         margin: 0px 10px;
     }
