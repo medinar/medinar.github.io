@@ -296,14 +296,13 @@ a:hover {
 .hs-card {
   background-color: white;
   border: 1px solid lightgray;
-  width: 240px;
+  /* width: 240px; */
+  min-width: 240px;
+  max-width: 300px;
   border-radius: 5px;
-  /* padding-top: 16px; */
-  /* padding-right: 16px; */
-  /* padding-bottom: 16px; */
-  /* padding-left: 16px; */
-  /* margin-bottom: 24px; */
   transition: all 0.3s ease 0s;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hs-card:hover {
   box-shadow: var(--box-shadow);
