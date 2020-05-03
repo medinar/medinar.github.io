@@ -292,14 +292,16 @@ a:hover {
   height: 150px;  
 }
 /* Player Card */
+
 .hs-card {
   background-color: white;
   border: 1px solid lightgray;
+  width: 240px;
   border-radius: 5px;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  /* padding-top: 16px; */
+  /* padding-right: 16px; */
+  /* padding-bottom: 16px; */
+  /* padding-left: 16px; */
   /* margin-bottom: 24px; */
   transition: all 0.3s ease 0s;
 }
@@ -307,13 +309,37 @@ a:hover {
   box-shadow: var(--box-shadow);
 }
 .hs-card-header {
-  border-bottom: 2px solid var(--hs-theme-color);
+  border-bottom: 1px solid var(--hs-theme-color);
+  padding: 4px 8px 6px;
+}
+.hs-card-header .label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+}
+.hs-card-header .schedule {
+  font-size: 12px;
+  color: darkgray;
+}
+.hs-card-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hs-card-feature {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 5px;
+  border-top: 1px solid lightgray;
+  color: darkgray;
+  font-size: 11px;
 }
 .hs-card-footer {
-  border-top: 2px solid var(--hs-theme-color);
+  font-size: 18px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top: 1px solid lightgray;
 }
 .hs-card-footer span {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--hs-black);
 }
 .carousel-control-next-icon,
@@ -329,6 +355,8 @@ a:hover {
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   color: var(--hs-light-gray);
+  padding-left: 10px;
+  margin-top: 5px;
 }
 .winner span{
   color: var(--hs-black)!important;
