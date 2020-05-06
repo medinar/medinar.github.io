@@ -2,11 +2,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* color: #505962; */
   color: #444444;
   width: 100%;
   height: 100%;
   background-color: var(--hs-theme-color);
+}
+.landing-page {
+  font-family: 'Roboto', sans-serif;
+  color: #444444;
+  width: 100%;
+  height: 100%;
+  background-color: var(--light);
 }
 .hs-no-sidebar {
   max-width: 980px;
@@ -382,3 +388,52 @@ a:hover {
   --hs-light-gray: #616161;
 }
 /* ===== STYLE GUIDE ===== */
+
+/* Navigation */
+.navbar a {
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+.navbar a:hover {
+  color: #cccccc;
+}
+.ball-brand {
+  color: white;
+}
+.ball-brand:hover {
+  color: var(--hs-ball);
+}
+.brand-div {
+  background-color: var(--hs-black);
+  color: white;
+}
+.brand-div a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.brand-div a:hover {
+  color: #cccccc;
+}
+.ball {
+  color: var(--hs-ball);
+}
+.date {
+  border-left: 1px white solid;
+}
+.league-logo {
+  width: 400px;
+  height: 80px;
+}
+.league-logo-placeholder {
+  background-color: var(--hs-theme-color);
+}
+.dropdown-menu {
+  background-color: var(--hs-transparent);
+}
+.league-name {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px;
+}
+/* Navigation ENd */
