@@ -371,7 +371,7 @@ a:hover {
   font-size: 20px;
 }
 :root {
-  --hs-theme-color: var(--hs-ball);
+  --hs-theme-color: var(--hs-red);
   --hs-blue: #365ace;
   --hs-violet: #563d7c;
   --hs-black: #010101;
@@ -395,7 +395,7 @@ a:hover {
   color: white;
   font-family: 'Monserrat', sans-serif;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 8px;
   transition: all 0.3s ease 0s;
 }
