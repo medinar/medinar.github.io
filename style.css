@@ -163,6 +163,10 @@ a:hover {
   /* border: 1px dashed black; */
   margin-top: 24px;
 }
+.hs-carousel-container {
+  max-width: 1150px;
+  margin: auto;
+}
 .hs-container {
   border: 1px solid darkgray;
   height: 100%;
@@ -391,7 +395,7 @@ a:hover {
   color: white;
   font-family: 'Monserrat', sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px;
   transition: all 0.3s ease 0s;
 }
@@ -440,9 +444,4 @@ a:hover {
   font-weight: 500;
   padding: 8px;
 }
-
-/* .navbar .nav-links {
-
-} */
-
 /* Main Nav End */
