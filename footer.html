@@ -3,7 +3,7 @@
         <div class="footer-wrapper">
             <div class="footer-contact container-fluid d-flex justify-content-center px-0">
                 <div class="row container-fluid justify-content-center px-0">
-                    <div class="col-lg-3 col-sm-6 col-xs-6 container-fluid d-flex flex-column px-0 pt-3">
+                    <div class="col-lg-3 col-sm-5 col-xs-5 container-fluid d-flex flex-column px-0 pt-3">
                         <h6>General</h6>
                         <a href="#">Home</a>
                         <a href="#">Blog</a>
@@ -11,7 +11,7 @@
                         <a href="#">Portfolio</a>
                         <a href="#">Contact Us</a>            
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-6 container-fluid d-flex flex-column px-0 pt-3">
+                    <div class="col-lg-3 col-sm-7 col-xs-7 container-fluid d-flex flex-column px-0 pt-3">
                         <h6>About</h6>
                         <a href="#">About Us</a>
                         <a href="#">Disclaimer</a>
@@ -19,13 +19,13 @@
                         <a href="#">Terms & Condition</a>
                         <a href="#">Sitemap</a>            
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-6 container-fluid d-flex flex-column px-0 pt-3">
+                    <div class="col-lg-3 col-sm-5 col-xs-5 container-fluid d-flex flex-column px-0 pt-3">
                         <h6>Qapps PH</h6>
-                        <p>Paseo de Roxas, Makati City Philippines</p>
+                        <p>Paseo de Roxas, Makati City PH</p>
                         <p>Phone: (632) 000 0000</p>
                         <p>support@qapp.com</p>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-6 container-fluid d-flex flex-column px-0 pt-3">
+                    <div class="col-lg-3 col-sm-7 col-xs-7 container-fluid d-flex flex-column px-0 pt-3">
                         <h6>Certificate & Alliances</h6>
                         <img class="img-fluid" src="../img/iso-9001.png" height="70px" width="200px">           
                     </div>
@@ -36,8 +36,8 @@
         <div class="copyright container-fluid d-flex justify-content-center px-0">
             <div class="row container-fluid justify-content-center px-0">
                 <div class="container-fluid d-flex justify-content-center px-0 my-3">
-                    <div class="brand">
-                        <i class="logo fas ball-brand fa-basketball-ball fa-2x"></i>
+                    <i class="logo fas ball-brand fa-basketball-ball fa-2x"></i>
+                    <div class="brand">                        
                         <span class="name">HoopsScores.com</span>
                     </div>
                 </div>
@@ -79,10 +79,13 @@
 .footer-contact a, p {
     font-size: 10px;
     color: white;
-    padding: 0 15px;
+    padding: 0 0 0 15px;
 }
 .footer-contact img {
-    padding: 0px 15px;
+    padding: 0 0 0 15px;
+}
+footer div {
+    border: 1px dashed white;
 }
 .copyright {
     background-color: var(--hs-dark-gray);
@@ -110,15 +113,16 @@
 footer a:hover {
     color: var(--hs-ball);
 }
-.copyright .brand .logo {
+.copyright .logo {
     color: var(--hs-ball);
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .copyright .brand span {
     font-family: 'Monserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #EDE5E6;
-    padding-left: 8px;
 }
 .copyright .brand .name {
     line-height: 31px;
